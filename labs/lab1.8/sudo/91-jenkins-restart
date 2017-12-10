@@ -1,0 +1,2 @@
+# Allow jenkins user to restart node-app deamon
+jenkins ALL=NOPASSWD: /bin/systemctl restart node-app.service

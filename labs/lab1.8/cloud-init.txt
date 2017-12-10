@@ -1,0 +1,51 @@
+#cloud-config
+package_upgrade: true
+write_files:
+  - path: /etc/systemd/system/docker.service.d/docker.conf
+    content: |
+      [Service]
+        ExecStart=
+        ExecStart=/usr/bin/dockerd
+  - path: /etc/docker/daemon.json
+    content: |
+      {
+        "hosts": ["fd://","tcp://127.0.0.1:2375"]
+      }
+  - path: /lib/systemd/system/node-app.service
+    content: |
+      [Unit]
+      Description=hello-node - making a simple app to test some devops paterns
+      Documentation=https://github.com/fiap2tin/devops
+      After=network.target
+
+      [Service]
+      Type=simple
+      User=root
+      ExecStart=/usr/bin/node /opt/workspace/node-app
+      Restart=on-failure
+
+      [Install]
+      WantedBy=multi-user.target 
+  - path: /etc/nginx/sites-available/node-app.conf
+    content: |
+      upstream node-app {
+          server 127.0.0.1:1337;
+      }
+      
+      server {
+          listen 80 default_server;
+          server_name _;
+     
+          location / {
+              proxy_pass http://node-app;
+              proxy_set_header Host $host;
+          }
+      }
+runcmd:
+  - curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+  - apt-get update && apt-get install python-software-properties build-essential nginx-full git nodejs -y
+  - git clone https://github.com/fiap2tin/nodejs-docs-hello-world /opt/workspace/node-app
+  - ln -s /etc/nginx/sites-available/node-app.conf /etc/nginx/sites-enabled/node-app.conf
+  - rm -rf /etc/nginx/sites-enabled/default
+  - systemctl start node-app && systemctl enable node-app.service
+  - systemctl restart nginx && systemctl enable nginx.service
