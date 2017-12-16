@@ -1,6 +1,6 @@
 ## Introdução
 
-![alt tag](https://github.com/2TINsecdevops/classroom/raw/master/content/concepts/images/1.3-pexels-photo-355988.jpeg)
+![alt tag](https://github.com/2TINsecdevops/classroom/raw/master/content/images/1.3-pexels-photo-355988.jpeg)
 
 *"The most important problem that we face as software professionals is this: If somebody thinks of a good idea, how do we deliver it to users as quickly as possible?"*
 
