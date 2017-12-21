@@ -1,20 +1,4 @@
-# Versionando Código
-
-Quando o assunto é desenvolvimento ao considerar a visão e o foco dividido em vários projetos e quantidade de mãos atuando em uma mesma tarefa ou as etapas envolvidas é quase intuitivo que se utilize algum modelo de repositório para armazenamento e gerencimaneto de código, esses repositórios são o que chamamos de **repositórios de código**, a idéia base é armazenar seu trabalho em um local mais seguro e mais resiliente que um pen-drive.
-
-### Ferramentas de Controle de Versão
-
-A maioria dos repositórios utiliza alguma arquitetura baseada em um centralizador, os mais antigos trabalhavam com servidores que faziam essa função utilizando protocolos como FTP, outros implementam tecnologias próprias e esquemas próprios para transporte e controle de dados baseando-se em protocolos como HTTPS e SSH eis alguns exemplos:
-
-- [Git](https://git-scm.com/)
-- [Marcurial](https://pypi.python.org/pypi/Mercurial)
-- [Team Foundation Server](https://www.visualstudio.com/team-services/)
-- [SVN](https://subversion.apache.org/)
-- [CVS](https://sourceforge.net/p/mx4j/cvs/)
-
----
-
-## Git 
+# Git 
 
 Para nossos testes utilizaremos o git é um derivado do kernel do Linux sendo atualmente a mais famosa ferramenta para versionamento e controle de código sendo utilizado em diversos projetos famosos, alguns deles podem ser conferidos abaixo:
 
@@ -132,9 +116,6 @@ Guia de referência Git exemplificando o processo em formato gráfico:
 Recentemente descobri um interessante pacote de recursos extras para o git capaz de adicionar features interessantes para usuários intermediários e avançados:
 - [Git extras](https://github.com/tj/git-extras)
 
-E o melhor fica para o final, esse ebook publicado pelo pessoal da codeship descreve qual a abordagem e experiência pessoal deles em relação a versionamento de código:
-- [Efficiency in Development Workflows](https://resources.codeship.com/ebooks/efficiency-in-development-workflows?hsCtaTracking=282b4efb-3636-4833-84fb-19eae59ac503%7Ccd120a13-d5bb-434f-9295-b414729901a9)
- 
 ---
 
 **Free Software, Hell Yeah!**
