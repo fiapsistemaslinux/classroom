@@ -5,12 +5,11 @@ O termo **"Gerenciamento de Configuração" refere-se ao processo a partir do qu
 > Definir uma estratégia para gerenciamento de configuração é algo essencial para uma boa cultura de desenvolvimento, sendo a partir deste ponto que começaremos a pensar em questões como o fluxo para execução de mudanças, evolução e ciclo de desenvolvimento de aplicações além do modelo de colaboração e organização do time de desenvolvimento envolvido.
 
 
-**Como saber se estamos no caminho certo**
+**Como saber se estamos no caminho certo?**
 
 No livro Continuos Delivery Humble e Farley propõem três perguntas simples para determinar e você e seu time estão no caminho certo em relação a gerenciamento de configurações:
 
-<script>(function(t,e,s,o){var n,c,l;t.SMCX=t.SMCX||[],e.getElementById(o)||(n=e.getElementsByTagName(s),c=n[n.length-1],l=e.createElement(s),l.type="text/javascript",l.async=!0,l.id=o,l.src=["https:"===location.protocol?"https://":"http://","widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd27ODV48Ag_2BzmaWmdUAYIoLLRz4OJ2Lu3_2BZ9Ge7KWD_2BL.js"].join(""),c.parentNode.insertBefore(l,c))})(window,document,"script","smcx-sdk");</script>
-
+[Questionário: Como estou dirigindo?](https://pt.surveymonkey.com/r/2C5NVQW)
 
 É improvável que você consiga 5 corações para cada uma dessas perguntas mas isso nem mesmo é necessário, a idéia base por trás do questionário é export alguns pontos importantes diretamente relacionados a gerenciamento de configuração e a cultura devops, Aliás boa parte das respostas sobre como conseguir os 5 corações para cada uma dessas questões será trabalhada neste conteúdo.
 
