@@ -1,7 +1,5 @@
 # Infraestrutura como Código
 
----
-
 A idéia base por trás de ***IAC*** ou **infraestructure as a code** é desenvolver e configurar a infraestrutura com base em código e ferramentas de automação de ambiente de forma que sua arquitetura possa ser versionada, testada e principlamente ***reproduzida*** sempre que necessário.
 
 O uso dessa abordagem aumenta consideravelmente a velocidade do deploy de sistemas e a eficiência em processos de escalabilidade, esse formato é muito ligado à cultura de sistemas devops e na maioria dos casos possui como base duas características:
