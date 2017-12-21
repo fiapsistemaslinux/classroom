@@ -1,7 +1,5 @@
 # Infraestrutura como Código
 
-![alt tag](https://raw.githubusercontent.com/wiki/helcorin/secdevops/images/iac.jpg)
-
 ---
 
 A idéia base por trás de ***IAC*** ou **infraestructure as a code** é desenvolver e configurar a infraestrutura com base em código e ferramentas de automação de ambiente de forma que sua arquitetura possa ser versionada, testada e principlamente ***reproduzida*** sempre que necessário.
