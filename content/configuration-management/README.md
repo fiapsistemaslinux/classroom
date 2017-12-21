@@ -38,7 +38,7 @@ A maioria dos repositórios utiliza alguma arquitetura baseada em um centralizad
 - Todos os metadados ( Json, Yaml etc );
 - Todos os scripts de Teste automatizados e TDDs;
 - Toda a documentação e procedimentos de configuração ( Esta wiki é um exemplo );
-- Todos os templates de modelos de "Infraestructure as a Code" como nosso [cloud-init.txt](https://raw.githubusercontent.com/fiap2tin/devops/master/Lab2.3/cloud-init.txt);
+- Todos os templates de modelos de "Infraestructure as a Code";
 - Todos os templates utilizados em automação como (Cloudformation, Terraform ou Heat);
 - Todos os schemas de Databases, configurações e definições de DNS e Firewall;
 - ***Basicamente tudo mesmo...***
