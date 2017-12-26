@@ -5,7 +5,7 @@
 ## Material de apoio
 
 1. [Conceito](https://github.com/2TINsecdevops/aulas/blob/master/content/concepts)
-2. [Gerencimento de Configuração](https://github.com/2TINsecdevops/aulas/blob/master/content/configuration-management/)
+2. [Gerenciamento de Configuração](https://github.com/2TINsecdevops/aulas/blob/master/content/configuration-management/)
    - [Git](https://github.com/2TINsecdevops/aulas/blob/master/content/configuration-management/git.md)
    - [Infraestructura como Código](https://github.com/2TINsecdevops/aulas/blob/master/content/configuration-management/iac.md)
 3. [Integração Contínua](https://github.com/2TINsecdevops/aulas/blob/master/content/ci/ci.md)
