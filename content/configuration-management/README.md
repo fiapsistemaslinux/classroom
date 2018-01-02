@@ -15,7 +15,7 @@ No livro Continuos Delivery Humble e Farley propõem três perguntas simples par
 
 ---
 
-## Começando pelo controle de Versões
+## Gerenciamento de Código (controle de Versões)
 
 Quando o assunto é desenvolvimento ao considerar a visão e o foco dividido em vários projetos e quantidade de mãos atuando em uma mesma tarefa ou as etapas envolvidas é imperativo que se utilize algum modelo de repositório para armazenamento e gerenciamento de código, esses repositórios são o que chamamos de **repositórios de código**, o objetivo é armazenar seu trabalho em um local mais seguro e mais resiliente que um pen-drive, Uma vez que um bom modelo de versionamento de código seja utilizado ele deverá ser capaz de fornecer respostas para duas perguntas extremamente importantes:
 
@@ -99,9 +99,7 @@ Testes automatizados são essenciais e sua execução obviamente deve ser feita 
 
 ---
 
----
-
-## Gerenciamento de Configurações
+## Gerenciamento de Informações (Configurações e Parametrização)
 
 Informações de configuração são utilizadas para manipular o comportamente de aplicações alterando parâmetros no processo de build ou mesmo na aplicação em produção, é responsabilidade do time definir quais opções de configuração devem estar disponíveis, como gerencir essa opções durante o ciclo de vida da aplicação e como garantir a consistentencia da configuração, e consequente dos componentes configurados, aplicativos etc.
 
