@@ -77,22 +77,6 @@ O uso de tags é um recurso muito útil no trbalho colaborativo e na geração d
 
 ---
 
-## O que exatamente deve ser versionado? ( Na verdade Tudo )
-
-- Todo o código relativo a sua aplicação;
-- Todos os scripts de configuração;
-- Todo código de implementação interna ( O que chamamos de DSL ou domain-specific language );
-- Todos os scripts utilizados para Build de imagens ( Dockerfile por exemplo );
-- Todos os metadados ( Json, Yaml etc );
-- Todos os scripts de Teste automatizados e TDDs;
-- Toda a documentação e procedimentos de configuração ( Esta wiki é um exemplo );
-- Todos os templates de modelos de "Infraestructure as a Code" como nosso [cloud-init.txt](https://raw.githubusercontent.com/fiap2tin/devops/master/Lab2.3/cloud-init.txt);
-- Todos os templates utilizados em automação como (Cloudformation, Terraform ou Heat);
-- Todos os schemas de Databases, configurações e definições de DNS e Firewall;
-- ***Basicamente tudo mesmo...***
-
----
-
 ## Material de Referência e Recomendações:
 
 Falando em cursos sobre o uso do git o codeacdemy como sempre oferece uma boa opção:
