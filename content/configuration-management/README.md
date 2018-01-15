@@ -99,13 +99,22 @@ Testes automatizados são essenciais e sua execução obviamente deve ser feita 
 
 ---
 
-## Gerenciamento de Informações (Configurações e Parametrização)
+## Gerenciamento de Informações (Configurações e Parametros de Execução)
 
-Informações de configuração são utilizadas para manipular o comportamente de aplicações alterando parâmetros no processo de build ou mesmo na aplicação em produção, é responsabilidade do time definir quais opções de configuração devem estar disponíveis, como gerencir essa opções durante o ciclo de vida da aplicação e como garantir a consistentencia da configuração, e consequente dos componentes configurados, aplicativos etc.
+Informações sobre configuração são utilizadas para manipular o comportamento de aplicações alterando parâmetros no processo de build ou mesmo na aplicação em produção, é responsabilidade do time definir quais opções de configuração devem estar disponíveis, como gerenciar essa opções durante o ciclo de vida da aplicação e como garantir a consistencia da configuração, e consequente dos componentes configurados, aplicativos etc.
+
+
+***Quais configurações são responsabilidade do time de desenvolvimento?*** 
+
+Todas que estiverem ao seu alcance, você não vai querer descobrir no momento de um delivery que a versão de Java no servidor de produção é diferente da versão defina na arquitetura do seu novo projeto, configurações relacionadas ao ambiente onde uma aplicação será executada (as chamadas configuraçẽos de ambiente ou environment) precisam ser tão bem definidas e controladas quanto o código em si. A concessão de acesso direto a configurações de banco de dados, parâmetros de uma plataforma um midleware ou em um servidor de web por exemplo garantirá que o time será capaz de testar suas aplicações o mais rápido possível e falhar na mesma velocidade se necessário, naturalmente este tipo de configurção NÃO deverá ser definida ou alterada manualmente uma ferramenta ou metodolgia para geenciamento deste tipo de dado sempre será necessário, o conceito aqui não é permitir que o desenvolvedor acesse quaisquer níveis de configurações e ambiente criticos, mas sim que ele tenha conhecimento dessas configurações e a capacidade de reproduzilas de alguma forma garantindo que o ambiente de testes seja fidedigno ao ambiente de produção. Um primeiro passo nessa direção é pensar no versionament o de configurações tratando isso da mesma forma que se trata o versionamento de código.
+
+***Flexibilidade não quer dizer instabilidade***
 
 A flexibilidade é um componente importante mas deve ser tratada com certo cuidado,um software de propósito único pode ser bom em exercer uma função, e ao mesmo tempo ser desprovido de qualquer possibilidade de mudança de comportamento ou parametrização de suas funções. Por outro lado aplicações podem ser concebidas para funcionar como uma linguagem de programação que você poderia usar para escrever um jogo, um servidor de aplicativos ou um sistema de controle de estoque neste caso o diferencial seria a flexibilidade é claro que a maioria das aplicações, no entanto, não está em nenhum desses extremos. Ao invés disso são projetados para um propósito específico, mas dentro dos limites dessa finalidade, eles geralmente terão algumas maneiras pelas quais seu comportamento pode ser modificado, acionando módulos de depuração, alterando senhas e usuparios de banco etc.
 
 Considere que alguns tipos de mudança podem exigir o commit e alterações e o crivo por parte de testes de integração da a importância de versionar sua configuração. Outra abordagem possível é o uso de variaveis de ambiente e confoigurações alocadas em memória dentro de plataformas que permitam essa formato e forneçam meios para aplicar essas alterações sem indisponibilizar uma aplicação.
+
+***Qual a maneira certa para gerenciar essas configurações?***
 
 A manipulação de configurações pode ser feita em diversos pontos do projeto:
 

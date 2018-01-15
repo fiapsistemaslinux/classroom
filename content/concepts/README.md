@@ -1,4 +1,4 @@
-## Introdução
+# Introdução
 
 ![alt tag](https://github.com/2TINsecdevops/classroom/raw/master/content/images/1.3-pexels-photo-355988.jpeg)
 
@@ -15,7 +15,7 @@ Boa parte dos textos são baseados e utilizam elementos dessa bibliografia, fica
 Para começarmos a aprofundar um pouco as coisas alguns conceitos precisam ser estabelecidos, alguns deles possuem capítulos próprios e serão destrinchados a frente porém ainda assim neste primeiro momento vale uma aprensentação para facilitar :
 
 * [Deployment Pipeline](https://github.com/2TINsecdevops/classroom/blob/master/content/concepts/pipeline.md)
-* [Continuos Integration]()
+* [Continuos Integration](https://github.com/2TINsecdevops/classroom/blob/master/content/concepts/ci.md)
 * [Continuos Delivery]()
 
 ### Por que entregar código em produção é tão complicado (Será que é mesmo?)
