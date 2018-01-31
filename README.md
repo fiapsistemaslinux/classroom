@@ -13,6 +13,7 @@
    - [Docker Compose](https://github.com/2TINsecdevops/classroom/blob/master/content/3Microservicos/3.2DockerCompose)
 4. [Integração Contínua](https://github.com/2TINsecdevops/classroom/blob/master/content/4ContinuousIntegration)
    - [Jenkins](https://github.com/2TINsecdevops/classroom/blob/master/labs/jenkins)
+5. [Delivery Continuo](https://github.com/2TINsecdevops/classroom/blob/master/content/5ContinuousDelivery)
 6. [Deploy Continuo](https://github.com/2TINsecdevops/classroom/blob/master/content/6ContinuousDeployment)
 7. [Criptografia](https://github.com/2TINsecdevops/classroom/tree/master/content/7Criptografia)
 8. [Protocolos e Comunicação](https://github.com/2TINsecdevops/classroom/tree/master/content/8ProtocolosWeb)
