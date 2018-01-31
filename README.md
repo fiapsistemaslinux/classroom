@@ -27,9 +27,9 @@
 
 - [O Projeto Kali](https://www.kali.org/downloads/3/);
 
-- [Download Kali Virtual Images](https://www.offensive-security.com/kali-linux-vmware-virtualbox-image-download/);
+- [Download Kali VM](https://www.offensive-security.com/kali-linux-vmware-virtualbox-image-download/);
 
-- [Download Aplicação Virtual Box](https://www.virtualbox.org/wiki/Downloads);
+- [Download Virtual Box](https://www.virtualbox.org/wiki/Downloads);
 
 ---
 
