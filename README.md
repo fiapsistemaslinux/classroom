@@ -1,29 +1,25 @@
 # Sistemas para Internet / secdevops
 
-[![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/2TINsecdevops/aulas/blob/master/LICENCE.md) [![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)](https://github.com/2TINsecdevops/aulas/commits/master) [![Fiap](https://img.shields.io/badge/Fiap-2018-ff0080.svg)](https://www.fiap.com.br/) [![Linkedin](https://img.shields.io/badge/Linkedin-hpinfo-00BFFF.svg)](https://www.linkedin.com/in/hpinfo/)
+[![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/2TINsecdevops/classroom/blob/master/LICENCE.md) [![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)](https://github.com/2TINsecdevops/classroom/commits/master) [![Fiap](https://img.shields.io/badge/Fiap-2018-ff0080.svg)](https://www.fiap.com.br/) [![Linkedin](https://img.shields.io/badge/Linkedin-hpinfo-00BFFF.svg)](https://www.linkedin.com/in/hpinfo/)
 
 ## Material de apoio
 
-1. [Conceito](https://github.com/2TINsecdevops/aulas/blob/master/content/concepts)
-2. [Gerenciamento de Configuração](https://github.com/2TINsecdevops/aulas/blob/master/content/configuration-management/)
-   - [Git](https://github.com/2TINsecdevops/aulas/blob/master/content/configuration-management/git.md)
-   - [Infraestructura como Código](https://github.com/2TINsecdevops/aulas/blob/master/content/configuration-management/iac.md)
-3. [Integração Contínua](https://github.com/2TINsecdevops/aulas/blob/master/content/ci/README.md)
-   - [Jenkins](https://github.com/2TINsecdevops/aulas/blob/master/labs/jenkins)
-4. [Empacotamento e Repositórios](https://github.com/2TINsecdevops/aulas/blob/master/content/packages-repositories/packages-repositories.md)
-   - [Maven](https://github.com/2TINsecdevops/aulas/blob/master/content/packages-repositories/maven)
-   - [Artfactory](https://github.com/2TINsecdevops/aulas/blob/master/content/packages-repositories/art)
-5. [Conceitos sobre segurança](https://github.com/2TINsecdevops/aulas/tree/master/content/intro-sec)
-6. [Protocolos e Comunicação](https://github.com/2TINsecdevops/aulas/tree/master/content/http)
-   - [Cookies](https://github.com/2TINsecdevops/aulas/tree/master/content/cookies)
-   - [XSS](https://github.com/2TINsecdevops/aulas/tree/master/content/xss)
-   - [CSRF](https://github.com/2TINsecdevops/aulas/tree/master/content/csrf)
-7. [Criptografia](https://github.com/2TINsecdevops/aulas/tree/master/content/criptografia)
-8. [Analise de Vulnerabilidades](https://github.com/2TINsecdevops/aulas/tree/master/content/va)
-   - [Nikto](https://github.com/2TINsecdevops/aulas/tree/master/content/va/nikto.md)
-9. [Sql Injection](https://github.com/2TINsecdevops/aulas/tree/master/content/sqli)
-    - [SQLMap](https://github.com/2TINsecdevops/aulas/tree/master/content/sqli/sqlmap)
-  
+1. [Conceito](https://github.com/2TINsecdevops/classroom/blob/master/content/1Conceitos)
+2. [Gerenciamento de Configuração](https://github.com/2TINsecdevops/classroom/blob/master/content/2GerenciamentodeConfiguracao)
+   - [Git](https://github.com/2TINsecdevops/classroom/blob/master/content/2GerenciamentodeConfiguracao/2.1Git.md)
+   - [Infraestructura como Código](https://github.com/2TINsecdevops/classroom/blob/master/content/2GerenciamentodeConfiguracao/2.2IAC.md)
+3. [Microserviços](https://github.com/2TINsecdevops/classroom/blob/master/content/3Microservicos)
+   - [Docker](https://github.com/2TINsecdevops/classroom/blob/master/content/3Microservicos/3.1Docker)
+   - [Docker Compose](https://github.com/2TINsecdevops/classroom/blob/master/content/3Microservicos/3.2DockerCompose)
+4. [Integração Contínua](https://github.com/2TINsecdevops/classroom/blob/master/content/4ContinuousIntegration)
+   - [Jenkins](https://github.com/2TINsecdevops/classroom/blob/master/labs/jenkins)
+6. [Deploy Continuo](https://github.com/2TINsecdevops/classroom/blob/master/content/6ContinuousDeployment)
+7. [Criptografia](https://github.com/2TINsecdevops/classroom/tree/master/content/7Criptografia)
+8. [Protocolos e Comunicação](https://github.com/2TINsecdevops/classroom/tree/master/content/8ProtocolosWeb)
+   - [HTTP](https://github.com/2TINsecdevops/classroom/tree/master/content/8.1ProtocoloHTTP.md)
+   - [Cookies de Sessão](https://github.com/2TINsecdevops/classroom/tree/master/content/8.2Cookies.md)
+9. [Conceitos sobre Segurança](https://github.com/2TINsecdevops/classroom/tree/master/content/9Security)
+
 ---
 
 **Imagens para execução de Testes:**
