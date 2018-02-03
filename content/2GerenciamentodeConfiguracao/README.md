@@ -1,8 +1,12 @@
 # Gerenciamento de configurações
 
-O termo **"Gerenciamento de Configuração" refere-se ao processo a partir do qual os componentes relevantes ao seu projeto e suas respectivas dependências são armazenadas, identificadas e modificadas,** essa lógica é amplamente usada na área de desenvolimento e automação, podendo ser aplicada em diversas esferas, no caso do desenvolvimento a maior prática relacionada ao gerenciamento de configuração seria o versionamento de código.
-
 > Definir uma estratégia para gerenciamento de configuração é algo essencial para uma boa cultura de desenvolvimento, sendo a partir deste ponto que começaremos a pensar em questões como o fluxo para execução de mudanças, evolução e ciclo de desenvolvimento de aplicações além do modelo de colaboração e organização do time de desenvolvimento envolvido.
+
+---
+![alt tag](https://github.com/2TINsecdevops/classroom/raw/master/content/pexels/omsipu5.jpg)
+---
+
+O termo **"Gerenciamento de Configuração" refere-se ao processo a partir do qual os componentes relevantes ao seu projeto e suas respectivas dependências são armazenadas, identificadas e modificadas,** essa lógica é amplamente usada na área de desenvolimento e automação, podendo ser aplicada em diversas esferas, no caso do desenvolvimento a maior prática relacionada ao gerenciamento de configuração seria o versionamento de código.
 
 
 **Como saber se estamos no caminho certo?**

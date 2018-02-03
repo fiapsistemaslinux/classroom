@@ -1,8 +1,10 @@
 # Introdução
 
-![alt tag](https://github.com/2TINsecdevops/classroom/raw/master/content/images/1.0-pexels-photo-355988.jpeg)
+> The most important problem that we face as software professionals is this: If somebody thinks of a good idea, how do we deliver it to users as quickly as possible?
 
-*"The most important problem that we face as software professionals is this: If somebody thinks of a good idea, how do we deliver it to users as quickly as possible?"*
+---
+![alt tag](https://github.com/2TINsecdevops/classroom/raw/master/content/pexels/355988.jpg)
+---
 
 O trecho acima refere-se ao primeiro paragráfo do primeiro capítulo do Livro "Continuos Delivery" dos Authores Jez Humble e David Farley, o livro é uma das melhores referências escritas até então sobre Delivery Continuos e todas as práticas que compõem essa prática, o que desenvolvedores, engenheiros e afins passaram a chamar de devops ou "cultura devops" se preferir, é exatamente sobre essa cultura e sobre essas práticas que trataremos neste material, a idéia é abordar o tema de forma prática com exemplos e contextos baseados em conteúdos já desenvolvidos sobre o assunto e utilizando ferramentas e plataformas que tornem isso possível.
 
