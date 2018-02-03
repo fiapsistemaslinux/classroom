@@ -14,9 +14,11 @@ Boa parte dos textos são baseados e utilizam elementos dessa bibliografia, fica
 
 Para começarmos a aprofundar um pouco as coisas alguns conceitos precisam ser estabelecidos, alguns deles possuem capítulos próprios e serão destrinchados a frente porém ainda assim neste primeiro momento vale uma aprensentação para facilitar :
 
-* [Deployment Pipeline](https://github.com/2TINsecdevops/classroom/blob/master/content/concepts/pipeline.md)
-* [Continuous Integration](https://github.com/2TINsecdevops/classroom/blob/master/content/concepts/ci.md)
-* [Continuous Delivery e Continuous Deployment](https://github.com/2TINsecdevops/classroom/blob/master/content/concepts/cd.md)
+* [Deployment Pipeline](https://github.com/2TINsecdevops/classroom/blob/master/content/concepts/1.1Pipeline.md)
+* [Continuous Integration](https://github.com/2TINsecdevops/classroom/blob/master/content/concepts/1.2CIntegration.md)
+* [Continuous Delivery](https://github.com/2TINsecdevops/classroom/blob/master/content/concepts/1.3CDelivery.md)
+* [Continuous Deployment](https://github.com/2TINsecdevops/classroom/blob/master/content/concepts/1.4CDeployment.md)
+
 
 ---
 
