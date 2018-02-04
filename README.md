@@ -4,22 +4,21 @@
 
 ## Material de apoio
 
-1. [Conceito](https://github.com/2TINsecdevops/classroom/blob/master/content/1Conceitos)
-2. [Gerenciamento de Configuração](https://github.com/2TINsecdevops/classroom/blob/master/content/2GerenciamentodeConfiguracao)
-   - [Git](https://github.com/2TINsecdevops/classroom/blob/master/content/2GerenciamentodeConfiguracao/2.1Git.md)
-   - [Infraestructura como Código](https://github.com/2TINsecdevops/classroom/blob/master/content/2GerenciamentodeConfiguracao/2.2IAC.md)
-3. [Microserviços](https://github.com/2TINsecdevops/classroom/blob/master/content/3Microservicos)
-   - [Docker](https://github.com/2TINsecdevops/classroom/blob/master/content/3Microservicos/3.1Docker)
-   - [Docker Compose](https://github.com/2TINsecdevops/classroom/blob/master/content/3Microservicos/3.2DockerCompose)
-4. [Integração Contínua](https://github.com/2TINsecdevops/classroom/blob/master/content/4ContinuousIntegration)
+1. [Conceito](https://github.com/2TINsecdevops/classroom/blob/master/content/1conceitos)
+2. [Gerenciamento de Configuração](https://github.com/2TINsecdevops/classroom/blob/master/content/2gerenciamentodeConfiguracao)
+   - [Git](https://github.com/2TINsecdevops/classroom/blob/master/content/2gerenciamentodeConfiguracao/2.1git.md)
+   - [Infraestructura como Código](https://github.com/2TINsecdevops/classroom/blob/master/content/2gerenciamentodeConfiguracao/2.2iac.md)
+3. [Microserviços](https://github.com/2TINsecdevops/classroom/blob/master/content/3microservicos)
+   - [Docker](https://github.com/2TINsecdevops/classroom/blob/master/content/3microservicos/3.1docker)
+   - [Docker Compose](https://github.com/2TINsecdevops/classroom/blob/master/content/3microservicos/3.2dockerCompose)
+4. [Integração Contínua](https://github.com/2TINsecdevops/classroom/blob/master/content/4continuousIntegration)
    - [Jenkins](https://github.com/2TINsecdevops/classroom/blob/master/labs/jenkins)
-5. [Delivery Continuo](https://github.com/2TINsecdevops/classroom/blob/master/content/5ContinuousDelivery)
-6. [Deploy Continuo](https://github.com/2TINsecdevops/classroom/blob/master/content/6ContinuousDeployment)
-7. [Criptografia](https://github.com/2TINsecdevops/classroom/tree/master/content/7Criptografia)
-8. [Protocolos e Comunicação](https://github.com/2TINsecdevops/classroom/tree/master/content/8ProtocolosWeb)
-   - [HTTP](https://github.com/2TINsecdevops/classroom/tree/master/content/8.1ProtocoloHTTP.md)
-   - [Cookies de Sessão](https://github.com/2TINsecdevops/classroom/tree/master/content/8.2Cookies.md)
-9. [Conceitos sobre Segurança](https://github.com/2TINsecdevops/classroom/tree/master/content/9Security)
+5. [Delivery Continuo](https://github.com/2TINsecdevops/classroom/blob/master/content/5continuousDelivery)
+6. [Deploy Continuo](https://github.com/2TINsecdevops/classroom/blob/master/content/6continuousDeployment)
+7. [Criptografia & Protocolos de Internet](https://github.com/2TINsecdevops/classroom/tree/master/content/7criptografiaProtocolos)
+   - [Requisições HTTP](https://github.com/2TINsecdevops/classroom/tree/master/content/7criptografiaProtocolos/7.1protocoloHTTP.md)
+   - [Cookies de sessão](https://github.com/2TINsecdevops/classroom/tree/master/content/7criptografiaProtocolos/7.2cookies.md)
+8. [Conceitos sobre Segurança](https://github.com/2TINsecdevops/classroom/tree/master/content/8security)
 
 ---
 
