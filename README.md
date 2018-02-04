@@ -26,7 +26,7 @@
 
 **Bibliografia da Disciplina:***
 
-* [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation](https://www.pearson.com/us/higher-education/program/Humble-Continuous-Delivery    -Reliable-Software-Releases-through-Build-Test-and-Deployment-Automation/PGM249879.html)
+* [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation](https://www.pearson.com/us/higher-education/program/Humble-Continuous-Delivery-Reliable-Software-Releases-through-Build-Test-and-Deployment-Automation/PGM249879.html)
 Autores: Jez Humble e David Farley, Editora: Pearson
 
 * [DevOpsSec: Securing Software through Continuous Delivery](http://www.oreilly.com/webops-perf/free/devopssec.csp);
