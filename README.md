@@ -16,8 +16,10 @@
 5. [Delivery Continuo](https://github.com/2TINsecdevops/classroom/blob/master/content/5continuousDelivery)
 6. [Deploy Continuo](https://github.com/2TINsecdevops/classroom/blob/master/content/6continuousDeployment)
 7. [Criptografia & Protocolos de Internet](https://github.com/2TINsecdevops/classroom/tree/master/content/7criptografiaProtocolos)
-   - [Requisições HTTP](https://github.com/2TINsecdevops/classroom/tree/master/content/7criptografiaProtocolos/7.1protocoloHTTP.md)
-   - [Cookies de sessão](https://github.com/2TINsecdevops/classroom/tree/master/content/7criptografiaProtocolos/7.2cookies.md)
+   - [Protocolo HTTP](https://github.com/2TINsecdevops/classroom/tree/master/content/7criptografiaProtocolos/7.1protocoloHTTP.md)
+   - [Protocolo HTTPS](https://github.com/2TINsecdevops/classroom/tree/master/content/7criptografiaProtocolos/7.2protocoloHTTPS.md)
+   - [Cookies de Sessão](https://github.com/2TINsecdevops/classroom/tree/master/content/7criptografiaProtocolos/7.3cookies.md)
+   - [Protocolo HSTS](https://github.com/2TINsecdevops/classroom/tree/master/content/7criptografiaProtocolos/7.4protocoloHSTS.md)
 8. [Desenvolvimento Seguro](https://github.com/2TINsecdevops/classroom/tree/master/content/8security)
 
 ---
