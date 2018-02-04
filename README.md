@@ -6,21 +6,12 @@
 
 1. [Conceito](https://github.com/2TINsecdevops/classroom/blob/master/content/1conceitos)
 2. [Gerenciamento de Configuração](https://github.com/2TINsecdevops/classroom/blob/master/content/2gerenciamentodeConfiguracao)
-   - [Git](https://github.com/2TINsecdevops/classroom/blob/master/content/2gerenciamentodeConfiguracao/2.1git.md)
-   - [Infraestructura como Código](https://github.com/2TINsecdevops/classroom/blob/master/content/2gerenciamentodeConfiguracao/2.2iac.md)
 3. [Microserviços](https://github.com/2TINsecdevops/classroom/blob/master/content/3microservicos)
-   - [Docker](https://github.com/2TINsecdevops/classroom/blob/master/content/3microservicos/3.1docker)
-   - [Docker Compose](https://github.com/2TINsecdevops/classroom/blob/master/content/3microservicos/3.2dockerCompose)
 4. [Integração Contínua](https://github.com/2TINsecdevops/classroom/blob/master/content/4continuousIntegration)
-   - [Jenkins](https://github.com/2TINsecdevops/classroom/blob/master/labs/jenkins)
 5. [Delivery Continuo](https://github.com/2TINsecdevops/classroom/blob/master/content/5continuousDelivery)
 6. [Deploy Continuo](https://github.com/2TINsecdevops/classroom/blob/master/content/6continuousDeployment)
 7. [Criptografia & Protocolos de Internet](https://github.com/2TINsecdevops/classroom/tree/master/content/7criptografiaProtocolos)
-   - [Protocolo HTTP](https://github.com/2TINsecdevops/classroom/tree/master/content/7criptografiaProtocolos/7.1protocoloHTTP.md)
-   - [Protocolo HTTPS](https://github.com/2TINsecdevops/classroom/tree/master/content/7criptografiaProtocolos/7.2protocoloHTTPS.md)
-   - [Cookies de Sessão](https://github.com/2TINsecdevops/classroom/tree/master/content/7criptografiaProtocolos/7.3cookies.md)
-   - [Protocolo HSTS](https://github.com/2TINsecdevops/classroom/tree/master/content/7criptografiaProtocolos/7.4protocoloHSTS.md)
-8. [Desenvolvimento Seguro](https://github.com/2TINsecdevops/classroom/tree/master/content/8security)
+8. [Security Development](https://github.com/2TINsecdevops/classroom/tree/master/content/8security)
 
 ---
 
