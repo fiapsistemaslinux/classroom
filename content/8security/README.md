@@ -1,8 +1,12 @@
-# Definindo as Bases:
+# Reduzindo o Escopo
 
-## Reduzindo o Escopo:
+> É comum e até corriqueiro que o conceito de segurança seja relacionado quase que exclusivamente a eventos relacionados a ataques, roubo de informações e negação de serviços, isso provavelmente ocorre devido ao quão interessante essa área se mostra e todo o encanto envolvido nessa "coisa de hacker"; na prática a coisa é bem mais abrangente, questões relacionadas a segurança da informação estão muito além desse escopo, alias, estão muito além do escopo de tecnologia...
 
-É comum e até corriqueiro que o conceito de segurança seja relacionado quase que exclusivamente a eventos relacionados a ataques, roubo de informações e negação de serviços, isso provavelmente ocorre devido ao quão interessante essa área se mostra e todo o encanto envolvido nessa "coisa de hacker"; Na prática a coisa é bem mais abrangente, questões relacionadas a segurança da informação estão muito além desse escopo, alias, estão muito além do escopo de tecnologia; Questões e práticas relacionadas a segurança da informação estarão presentes em quaisquer situações em que haja tratamento de informação:
+---
+![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/content/pexels/uji8nqd.jpg)
+---
+
+Questões e práticas relacionadas a segurança da informação estarão presentes em quaisquer situações em que haja tratamento de informação:
 
 - Registros de Negócios;
 - Bases de Dados;
@@ -15,15 +19,13 @@ Resumindo essa pequena história a segurança da informação relaciona-se a tod
 
 > A proposta dessa disciplina é abordar questões importantes relacionados a segurança e desenvolvimento de forma técnica, conceitual em alguns momentos mas sempre embasado em prática e testes para comprovação de conceitos, o foco em segurança se dará no ambito dos eventos que envolvem desenvolvimento para internet, criptografia, arquitetura, identificação de vulnerabilides e Boas Práticas;
 
-## Os tais pilares... :
+## Os tais pilares...
 
 Muitos estudos relacionados a segurança da informação baseiam-se na categorização em três áreas: 
 
 - Confidencialidade;
 - Integridade;
 - Disponibilidade;
-
-![alt tag](https://raw.githubusercontent.com/wiki/fiapfiap/Sec/images/pilares.jpg)
 
 Resumidamente posso tentar descrever essas aŕeas da seguinte forma:
 
@@ -69,17 +71,13 @@ Guia de boas práticas, como um framework, voltadas para a gestão de TI. Inclui
 
 National Institute of Standards and Technology, Base de documentação voltada para a área de segurança da informação. Essa série é composta de documentos considerados "Special Publications", os quais abordam desde segurança na tecnologia Bluetooth, até segurança em servidores.
 
----
-
 ## Cybersecurity: It’s All About the Coders | Dan Cornell | TEDxSanAntonio:
 
 Apresentação de Dan Cornell no TEDxSantAntonio sobre a importância do Código em Cybersecurity;
 
 *- [It’s All About the Coders](https://www.youtube.com/embed/fi44mL7mcq0)
 
----
-
-## Material de Referência:
+## Material de Referência
 
 * [Cirt.net Manuais de uso do Nikto](https://cirt.net/nikto2-docs/)
 
