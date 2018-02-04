@@ -16,10 +16,10 @@ Boa parte dos textos são baseados e utilizam elementos dessa bibliografia, fica
 
 Para começarmos a aprofundar um pouco as coisas alguns conceitos precisam ser estabelecidos, alguns deles possuem capítulos próprios e serão destrinchados a frente porém ainda assim neste primeiro momento vale uma aprensentação para facilitar :
 
-* [Deployment Pipeline](https://github.com/fiapsecdevops/classroom/blob/master/content/conceitos/1.1pipeline.md)
-* [Continuous Integration](https://github.com/fiapsecdevops/classroom/blob/master/content/conceitos/1.2continuousIntegration.md)
-* [Continuous Delivery](https://github.com/fiapsecdevops/classroom/blob/master/content/conceitos/1.3continuousDelivery.md)
-* [Continuous Deployment](https://github.com/fiapsecdevops/classroom/blob/master/content/conceitos/1.4continuousDeployment.md)
+* [Deployment Pipeline](https://github.com/fiapsecdevops/classroom/blob/master/content/1conceitos/1.1pipeline.md)
+* [Continuous Integration](https://github.com/fiapsecdevops/classroom/blob/master/content/1conceitos/1.2continuousIntegration.md)
+* [Continuous Delivery](https://github.com/fiapsecdevops/classroom/blob/master/content/1conceitos/1.3continuousDelivery.md)
+* [Continuous Deployment](https://github.com/fiapsecdevops/classroom/blob/master/content/1conceitos/1.4continuousDeployment.md)
 
 ---
 
