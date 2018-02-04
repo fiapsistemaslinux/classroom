@@ -66,7 +66,7 @@ O processo de delivery naturalmente também seria mudado, nesse novo layout ele 
 
  Esse "E se" trás parte da lógica por trás do que chamamos de **Cultura DevOps**, a partir desse formato a imagem abaixo passa a fazer muito sentido:
 
-![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/content/images/1.2-devopsProcess.png)
+![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/content/images/1.2devopsProcess.png)
 
 ## Concluindo
 
