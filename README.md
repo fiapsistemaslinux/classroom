@@ -18,7 +18,7 @@
 7. [Criptografia & Protocolos de Internet](https://github.com/2TINsecdevops/classroom/tree/master/content/7criptografiaProtocolos)
    - [Requisições HTTP](https://github.com/2TINsecdevops/classroom/tree/master/content/7criptografiaProtocolos/7.1protocoloHTTP.md)
    - [Cookies de sessão](https://github.com/2TINsecdevops/classroom/tree/master/content/7criptografiaProtocolos/7.2cookies.md)
-8. [Conceitos sobre Segurança](https://github.com/2TINsecdevops/classroom/tree/master/content/8security)
+8. [Desenvolvimento Seguro](https://github.com/2TINsecdevops/classroom/tree/master/content/8security)
 
 ---
 
