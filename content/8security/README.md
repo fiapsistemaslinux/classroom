@@ -77,6 +77,18 @@ Apresentação de Dan Cornell no TEDxSantAntonio sobre a importância do Código
 
 * [It is All About the Coders](https://www.youtube.com/embed/fi44mL7mcq0)
 
+O conteúdo técnico deste capítulo é basedo em três bibliografias:
+
+* [DevOpsSec: Securing Software through Continuous Delivery](http://www.oreilly.com/webops-perf/free/devopssec.csp): Trata-se de um e-book do autor Jim Bird publicado e disponibilizado grauitamente pela O`Reilly que aborda os desafios gerais da implantação segura de uma cultura e métodos devops;
+
+* [SQL Injection Attacks and Defense, 2nd Edition](http://shop.oreilly.com/product/9781597499637.do): Bibliografia de Justin Clarke-Salt também da editora O`Reilly o livro é extremamente tecnico, alguns pontos das aulas sobre SQL foram extraida dessa bibiliografia;
+
+* [SQL Injection Defenses](http://shop.oreilly.com/product/9780596529642.do): Outro livro tecnico sobre o SQLi publicado por Martin Nystrom;
+
+* [Mastering Modern Web Penetration Testing](https://www.packtpub.com/networking-and-servers/mastering-modern-web-penetration-testing): O livro do autor Prakhar Prasad publicado pela editora Packt apresenta diversas ferramentas de pentest com exemplos práticos, alguns exemplos sobre XSS e CSRF são baseados neste conteúdo;
+
+* [Penetration Testing: A Hands-On Introduction to Hacking](http://shop.oreilly.com/product/9781593275648.do): Entre os mais conceituados e conhecidos livros sobre pentest, a publicação de Georgia Weidman tem uma abordagem que vai além das ferramentas e fala sobre estratégias e metodologias de um pentester, Editora: O`Reilly.
+
 ---
 
 **Free Software, Hell Yeah!**
