@@ -71,15 +71,11 @@ Guia de boas práticas, como um framework, voltadas para a gestão de TI. Inclui
 
 National Institute of Standards and Technology, Base de documentação voltada para a área de segurança da informação. Essa série é composta de documentos considerados "Special Publications", os quais abordam desde segurança na tecnologia Bluetooth, até segurança em servidores.
 
-## Cybersecurity: It’s All About the Coders | Dan Cornell | TEDxSanAntonio:
+## Material de Referência
 
 Apresentação de Dan Cornell no TEDxSantAntonio sobre a importância do Código em Cybersecurity;
 
-*- [It’s All About the Coders](https://www.youtube.com/embed/fi44mL7mcq0)
-
-## Material de Referência
-
-* [Cirt.net Manuais de uso do Nikto](https://cirt.net/nikto2-docs/)
+* [It is All About the Coders](https://www.youtube.com/embed/fi44mL7mcq0)
 
 ---
 
