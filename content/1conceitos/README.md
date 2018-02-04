@@ -1,7 +1,6 @@
 # Introdução
 
-> ...The most important problem that we face as software professionals is this: If somebody thinks of a good idea, how do we deliver it to users as quickly as possible?...
-...O problema mais importante que encaramos como profisisonais de software é o seguinte: Se alguém tiver uma ideia, como disponibilizamos isso aos usuários o mais rápido possível?... ***Autor: Jez Humble***
+> ...The most important problem that we face as software professionals is this: If somebody thinks of a good idea, how do we deliver it to users as quickly as possible? (O problema mais importante que encaramos como profisisonais de software é o seguinte: Se alguém tiver uma ideia, como disponibilizamos isso aos usuários o mais rápido possível?) ***Autor: Jez Humble***
 
 ---
 ![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/content/pexels/355988.jpg)
