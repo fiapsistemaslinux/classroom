@@ -91,6 +91,10 @@ Além do material base existem ótimas boas referências em Português sobre o a
 
 * [O que é DevOps afinal?](http://gutocarvalho.net/octopress/2013/03/16/o-que-e-um-devops-afinal/)
 
+Partindo para outro modelo de mídia, recentemente o pessoal da Alura lançou um episódio do podcast [Hipsters Ponto Tech](https://hipsters.tech/) falando sobre devops:
+
+* [Podcast Hipster Ponto Tech #81: Primeiros passos com DevOps](https://hipsters.tech/primeiros-passos-com-devops-hipsters-81/)
+
 ---
 
 **Free Software, Hell Yeah!**
