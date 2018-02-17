@@ -1,6 +1,6 @@
 # Sistemas para Internet / secdevops
 
-[![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/2TINsecdevops/classroom/blob/master/LICENCE.md) [![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)](https://github.com/2TINsecdevops/classroom/commits/master) [![Fiap](https://img.shields.io/badge/Fiap-2018-ff0080.svg)](https://www.fiap.com.br/) [![Linkedin](https://img.shields.io/badge/Linkedin-hpinfo-00BFFF.svg)](https://www.linkedin.com/in/hpinfo/)
+[![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/2TINsecdevops/classroom/blob/master/LICENCE.md) [![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)](https://github.com/2TINsecdevops/classroom/commits/master) [![Fiap](https://img.shields.io/badge/Fiap-2018-ff0080.svg)](https://www.fiap.com.br/) [![Linkedin](https://img.shields.io/badge/Linkedin-hpinfo-00BFFF.svg)](https://www.linkedin.com/in/hpinfo/) [![Slack](https://img.shields.io/badge/slack-%23fiapsecdevops-yellow.svg)](https://join.slack.com/t/fiapsecdevops/shared_invite/enQtMzA5MDUyNTU3ODg5LWY4OTIxYmZiNmI5ZDgzYTQ4MGQ0N2I1NjEzNGIxY2Y0M2M5Y2M4ZGZmYzJhZmFiMzM1ODg5OWQ4ZDVjYTRiZmU)
 
 ## Material de apoio
 
@@ -21,6 +21,19 @@
    - [Cookies de Sessão](https://github.com/2TINsecdevops/classroom/tree/master/content/7criptografiaProtocolos/7.3cookies.md)
    - [Protocolo HSTS](https://github.com/2TINsecdevops/classroom/tree/master/content/7criptografiaProtocolos/7.4protocoloHSTS.md)
 8. [Security Development](https://github.com/2TINsecdevops/classroom/tree/master/content/8security)
+
+---
+
+**Bibliografia da Disciplina:**
+
+* [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation](https://www.pearson.com/us/higher-education/program/Humble-Continuous-Delivery-Reliable-Software-Releases-through-Build-Test-and-Deployment-Automation/PGM249879.html); 
+Autores: Jez Humble e David Farley, Editora: Pearson
+
+* [DevOpsSec: Securing Software through Continuous Delivery](http://www.oreilly.com/webops-perf/free/devopssec.csp); 
+Autor: Jim Bird, Editora: OReilly
+
+* [O Livro de SRE do Google](https://landing.google.com/sre/book.html); 
+Autores: Betsy Beyer, Chris Jones, Jennifer Petoff and Niall Richard Murphy, Editora OReilly
 
 ---
 
