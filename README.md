@@ -9,8 +9,9 @@
    - [Git](https://github.com/2TINsecdevops/classroom/blob/master/content/2gerenciamentodeConfiguracao/2.1git.md)
    - [Infraestructura como Código](https://github.com/2TINsecdevops/classroom/blob/master/content/2gerenciamentodeConfiguracao/2.2iac.md)
 3. [Microserviços](https://github.com/2TINsecdevops/classroom/blob/master/content/3microservicos)
-   - [Docker](https://github.com/2TINsecdevops/classroom/blob/master/content/3microservicos/3.1docker)
-   - [Docker Compose](https://github.com/2TINsecdevops/classroom/blob/master/content/3microservicos/3.2dockerCompose)
+   - [Cloud Native Apps](https://github.com/2TINsecdevops/classroom/blob/master/content/3microservicos/3.1cloudNativeAplications.md)
+   - [Docker](https://github.com/2TINsecdevops/classroom/blob/master/content/3microservicos/3.2docker)
+   - [Docker Compose](https://github.com/2TINsecdevops/classroom/blob/master/content/3microservicos/3.3dockerCompose)
 4. [Integração Contínua](https://github.com/2TINsecdevops/classroom/blob/master/content/4continuousIntegration)
    - [Jenkins](https://github.com/2TINsecdevops/classroom/blob/master/labs/jenkins)
 5. [Delivery Continuo](https://github.com/2TINsecdevops/classroom/blob/master/content/5continuousDelivery)
@@ -26,14 +27,16 @@
 
 **Bibliografia da Disciplina:**
 
-* [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation](https://www.pearson.com/us/higher-education/program/Humble-Continuous-Delivery-Reliable-Software-Releases-through-Build-Test-and-Deployment-Automation/PGM249879.html); 
+*[Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation](https://www.pearson.com/us/higher-education/program/Humble-Continuous-Delivery-Reliable-Software-Releases-through-Build-Test-and-Deployment-Automation/PGM249879.html); 
 Autores: Jez Humble e David Farley, Editora: Pearson
 
-* [DevOpsSec: Securing Software through Continuous Delivery](http://www.oreilly.com/webops-perf/free/devopssec.csp); 
+*[DevOpsSec: Securing Software through Continuous Delivery](http://www.oreilly.com/webops-perf/free/devopssec.csp); 
 Autor: Jim Bird, Editora: OReilly
 
-* [O Livro de SRE do Google](https://landing.google.com/sre/book.html); 
+*[O Livro de SRE do Google](https://landing.google.com/sre/book.html); 
 Autores: Betsy Beyer, Chris Jones, Jennifer Petoff and Niall Richard Murphy, Editora OReilly
+
+*[Beyond the 12 Factor App](https://content.pivotal.io/ebooks/beyond-the-12-factor-app)
 
 ---
 
