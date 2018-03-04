@@ -27,16 +27,16 @@
 
 **Bibliografia da Disciplina:**
 
-*[Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation](https://www.pearson.com/us/higher-education/program/Humble-Continuous-Delivery-Reliable-Software-Releases-through-Build-Test-and-Deployment-Automation/PGM249879.html); 
+* [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation](https://www.pearson.com/us/higher-education/program/Humble-Continuous-Delivery-Reliable-Software-Releases-through-Build-Test-and-Deployment-Automation/PGM249879.html); 
 Autores: Jez Humble e David Farley, Editora: Pearson
 
-*[DevOpsSec: Securing Software through Continuous Delivery](http://www.oreilly.com/webops-perf/free/devopssec.csp); 
+* [DevOpsSec: Securing Software through Continuous Delivery](http://www.oreilly.com/webops-perf/free/devopssec.csp); 
 Autor: Jim Bird, Editora: OReilly
 
-*[O Livro de SRE do Google](https://landing.google.com/sre/book.html); 
+* [O Livro de SRE do Google](https://landing.google.com/sre/book.html); 
 Autores: Betsy Beyer, Chris Jones, Jennifer Petoff and Niall Richard Murphy, Editora OReilly
 
-*[Beyond the 12 Factor App](https://content.pivotal.io/ebooks/beyond-the-12-factor-app)
+* [Beyond the 12 Factor App](https://content.pivotal.io/ebooks/beyond-the-12-factor-app)
 
 ---
 
