@@ -36,7 +36,7 @@ Autor: Jim Bird, Editora: OReilly
 * [O Livro de SRE do Google](https://landing.google.com/sre/book.html); 
 Autores: Betsy Beyer, Chris Jones, Jennifer Petoff and Niall Richard Murphy, Editora OReilly
 
-* [Beyond the 12 Factor App](https://content.pivotal.io/ebooks/beyond-the-12-factor-app)
+* [Beyond the 12 Factor App](https://content.pivotal.io/ebooks/beyond-the-12-factor-app) Autor: Kevin Hoffman
 
 ---
 
