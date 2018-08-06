@@ -2,6 +2,8 @@
 
 **Afinal o que é o Jenkins?**
 
+![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.1.0-jenkins.png)
+
 O Jenkins é uma aplicação opensource baseado em java utilizado no processo de automação de tarefas, essas tarefas vão desde o processo de building de código até testes automatizados e deploys em ambientes de produção, sua instalação necessita apenas de ambiente com Java e pode ser executada na mairia dos sistemas operacionais atuais ou a partir de containers enquanto a arquitetura pode ser distribuida ou no formato standalone com apenas uma VM.
 
 > Em nosso cenário o Jenkins foi a solução escolhida como ferramenta para implementação de testes para delivery/deploy continuo de uma aplicação simples baseada em nodejs.
