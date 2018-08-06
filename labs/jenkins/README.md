@@ -1,7 +1,5 @@
 # Criando um modelo de CI com Jenkins
 
----
-
 O template abaixo executará o lançamento de uma instância na AWS utilizando Cloud Formation, esta instância "nasce" com o Docker Community instalado na versão 17, com Jenkins para testes de configuração de modelos de delivery contínuo e com acesso configurado para um usuário local;
 
 Clique no link abaixo caso deseja utilizar este template:
