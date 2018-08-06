@@ -103,6 +103,15 @@ Para validar nossa integração inicial no Jenkins executaremos a criação de u
 - Na seção "BUild", clique em "Add BUild Step" e selecione "Execute shell", em seguida, digite echo "Testing" na janela  command.
 - Salve a alteração na parte inferior da janela de trabalhos.
 
+## Testando a integração com o GitHub;
+
+Para testar a integração do GitHub com o Jenkins, precisaremos criar um evento, isto é executar uma alteração no código;
+
+1. Para executar esse processo volte à interface do GitHub, selecione o repositório e em seguida, localize o arquivo
+index.js;
+
+2. Clique no ícone de lápis para editar o arquivo, faça qualquer alteração no arquivo e observe se a alteração execute criará um novo evento em nosso CI.
+
 ---
 
 ## Referências:
