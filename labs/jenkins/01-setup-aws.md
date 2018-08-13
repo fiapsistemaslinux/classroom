@@ -10,6 +10,7 @@ Clique no link abaixo caso deseje utilizar este template:
 
 > Ao inicializar o template clicando no Link acima é necessário que esteja logado em uma conta na AWS, utilize as informações de autenticação fornecidas pelo professor;
 
+---
 
 A tela exibida após o lauch deve ser similar a este modelo:
 
@@ -20,7 +21,7 @@ A tela exibida após o lauch deve ser similar a este modelo:
 
 | Nome do Campo      | Preehcnimento    | Descrição |
 |--------------------|------------------|-----------|
-| Stack name         | <RMXXX-JENKINS>  | Nome do Stack no Cloud Formation                       |
+| Stack name         | RMXXX-JENKINS  | Nome do Stack no Cloud Formation                       |
 | AdminSecurityGroup | default          | Grupo de Seg. com regras de Firewall para Acesso a App |
 | DnsPrefix          | xpto             | Definir um nome para acesso a aplicação (Dois alunos NÃO podem usar o mesmo nome)    |
 | DnsZone            | fiapdev.com      | Zona onde o dominio de acesso será cadastrado, por exemplo  "xpto.fiapdev.com"       |
@@ -33,8 +34,9 @@ A tela exibida após o lauch deve ser similar a este modelo:
 | Subnets            |                  | Preencher com todos os valores disponíveis no campo (Será liberada acesso para todas as zoans da conta ) |
 | VpcId              |                  | Preecher com o valor sugerido no campo (Será usado a VPC padrão da conta)                                |
 
+**Fake Mail:**
 
-> **Fake Mail:** Para acessar a instalação inicial do Jenkins será necessário preenchimento de um endereço de e-mail para o qual será enviado o AdminSecretKey gerado durante a instalação, é possível criar um email fake apenas com a finalidade de entregar este laboratório, para isso acesso o serviço: [https://temp-mail.org/pt/](https://temp-mail.org/pt/) utilize o endereço no topo da tela no campo "Email Address";
+> Para acessar a instalação inicial do Jenkins será necessário preenchimento de um endereço de e-mail para o qual será enviado o AdminSecretKey gerado durante a instalação, é possível criar um email fake apenas com a finalidade de entregar este laboratório, para isso acesso o serviço: [https://temp-mail.org/pt/](https://temp-mail.org/pt/) utilize o endereço no topo da tela no campo "Email Address";
 
 2. Após executar a configuração inicial clique no botão **"Next"**;
 
@@ -54,3 +56,5 @@ A tela exibida após o lauch deve ser similar a este modelo:
 ![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.2.5-jenkins.png)
 
 > Aguarde enquanto o template é aplicado os próximos passos serão a configuração da ferramenta siga para a etapa seguinte para executar este processo;
+
+Próxima Etapa: [Inicialização do Jenkins](https://github.com/fiapsecdevops/classroom/blob/master/labs/jenkins/02-setup-jenkins.md)
