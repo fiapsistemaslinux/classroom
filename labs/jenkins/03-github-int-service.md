@@ -54,7 +54,7 @@ index.js;
 
 ![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.2.10-jenkins.png)
 
-clicando sobre o numero do Job é possível obter mais detalhes como o Output exibindo a mensagem "Testing" no campo ***"Console Output"***.
+clicando sobre o numero do Job é possível obter mais detalhes como o Output exibindo a mensagem "Testing" no campo **"Console Output"**.
 
 ![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.2.12-jenkins.png)
 
