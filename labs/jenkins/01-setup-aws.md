@@ -5,7 +5,7 @@ O template abaixo executará o lançamento de uma instância na AWS utilizando C
 
 Clique no link abaixo caso deseje utilizar este template:
 
-[![cf-template](https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-2#/stacks/new?stackName=sandboxDocker&templateURL=https://s3.us-east-2.amazonaws.com/cf-templates-fiaplabs/dockermachine-aws-tmpl.json)
+[![cf-template](https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-2#/stacks/new?stackName=sandboxDocker&templateURL=https://s3.us-east-2.amazonaws.com/cf-templates-fiaplabs/jenkinsmachine-aws-tmpl.json)
 
 
 > Ao inicializar o template clicando no Link acima é necessário que esteja logado em uma conta na AWS, utilize as informações de autenticação fornecidas pelo professor;
