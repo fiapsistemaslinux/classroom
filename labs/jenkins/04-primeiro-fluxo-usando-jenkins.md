@@ -21,7 +21,7 @@ Tendo criado e validado a comunicação entre o Jenkins e o repositório Git ess
 ```sh
 docker build --tag node-sample-app:$BUILD_NUMBER .
 docker stop node-sample-app && docker rm node-sample-app
-docker run -d --name node-sample-app -p 5000:5000 -e PORT=5000 node-sample-app:$BUILD_NUMBER
+docker run -d --name node-sample-app -p 1337:1337 -e PORT=1337 node-sample-app:$BUILD_NUMBER
 ```
 
 - A seguir e então selecione "Salvar" e volte a tela inicial;
