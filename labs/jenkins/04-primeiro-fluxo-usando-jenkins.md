@@ -32,7 +32,7 @@ docker run -d --name node-sample-app -p 1337:1337 -e PORT=1337 node-sample-app:$
 
 1. Após alterar o processo de Build faça um commit no repositório iniciando um novo gatilho;
 
-2. Abra um navegador e insira o endereço ip da instancia no formato http://xpto.fiapdev.com:5000
+2. Abra um navegador e insira o endereço ip da instancia no formato http://xpto.fiapdev.com:8080 # Embora a aplicação tenha sido exposta na Porta 1337 essa porta foi "mapeada" para a porta 80 da instancia.
 
 3. Seu app deverá ser exibido refletindo a versão mais recente baseada em seu Fork no GitHub:
 
