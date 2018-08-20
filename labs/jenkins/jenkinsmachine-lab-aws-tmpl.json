@@ -5,7 +5,7 @@
     "InstanceType": {
       "Description": "EC2 instance type",
       "Type": "String",
-      "Default": "t2.small",
+      "Default": "t2.medium",
       "AllowedValues": [
         "t1.micro",
         "t2.small",
@@ -46,7 +46,7 @@
     "S3Bucket": {
       "Description": "Existing S3 bucket to use for Jenkins backups and restores",
       "Type": "String",
-      "Default": "fiapdev-bucket"
+      "Default": "fiapdev-jenkins"
     },
     "S3Prefix": {
       "Description": "[Optional] Key prefix to use for Jenkins backups",
@@ -680,7 +680,7 @@
                 "# Post-cfn work\n",
                 
                 "# Install Docker Env",
-                "sudo yum install docker",
+                "sudo yum install docker -y",
                 "sudo service docker start",
                 "sudo chkconfig  docker  on",
 
@@ -773,8 +773,8 @@
           },
           {
             "IpProtocol": "tcp",
-            "FromPort": "5000",
-            "ToPort": "5000",
+            "FromPort": "1337",
+            "ToPort": "1337",
             "CidrIp": "0.0.0.0/0"
           },
           {
@@ -804,6 +804,11 @@
           {
             "LoadBalancerPort": "80",
             "InstancePort": "8080",
+            "Protocol": "HTTP"
+          },
+          {
+            "LoadBalancerPort": "8080",
+            "InstancePort": "1337",
             "Protocol": "HTTP"
           }
         ],
@@ -862,10 +867,6 @@
     }
   },
   "Outputs": {
-    "InstanceURL" : {
-      "Value" : { "Fn::Join" : ["", [{ "Fn::GetAtt" : [ "DockerMachine", "PublicDnsName" ]}]]},
-      "Description" : "DNS publico da instancia"
-    },
     "DnsAddress": {
       "Description": "Jenkins URL",
       "Value": {
