@@ -5,7 +5,7 @@
     "InstanceType": {
       "Description": "EC2 instance type",
       "Type": "String",
-      "Default": "t2.small",
+      "Default": "t2.medium",
       "AllowedValues": [
         "t1.micro",
         "t2.small",
@@ -46,24 +46,26 @@
     "S3Bucket": {
       "Description": "Existing S3 bucket to use for Jenkins backups and restores",
       "Type": "String",
-      "Default": "fiapdev-bucket"
+      "Default": "fiapdev-jenkins"
     },
     "S3Prefix": {
       "Description": "[Optional] Key prefix to use for Jenkins backups",
       "Type": "String",
-      "Default": ""
+      "Default": "LAB04"
     },
     "Subnets": {
       "Description": "List of VPC subnet IDs for the cluster",
+      "Default": "subnet-2255cd1f,subnet-864f9ade,subnet-8eda50eb,subnet-99c371ef,subnet-a6e5258c,subnet-e35ae6ef",
       "Type": "List<AWS::EC2::Subnet::Id>"
     },
     "VpcId": {
       "Description": "VPC associated with the provided subnets",
+      "Default": "vpc-97d996f3",
       "Type": "AWS::EC2::VPC::Id"
     },
     "AdminSecurityGroup": {
       "Description": "Existing security group that should be granted administrative access to Jenkins (e.g., 'sg-123456')",
-      "Default": "Primary",
+      "Default": "sg-f242418b",
       "Type": "AWS::EC2::SecurityGroup::Id"
     }
   },
@@ -679,10 +681,10 @@
                 " || error_exit 'Failed to run cfn-init'\n",
                 "# Post-cfn work\n",
                 
-                "# Install Docker Env",
-                "sudo yum install docker",
-                "sudo service docker start",
-                "sudo chkconfig  docker  on",
+                "# Install Docker\n",
+                "sudo yum install -y docker\n",
+                "sudo service docker start\n",
+                "sudo chkconfig docker on\n",
 
                 "# Updating to Java 8\n",
                 "yum install -y java-1.8.0-openjdk.x86_64 || true \n",
@@ -695,6 +697,7 @@
                 "yum install -y jenkins\n",
                 "sudo mkdir -p /var/lib/jenkins\n",
                 "sudo chown -R jenkins:jenkins /var/lib/jenkins\n",
+                "sudo usermod -aG docker jenkins\n",
                 "# Handle case where cron doesn't detect the new /etc/cron.d file\n",
                 "#service cron restart\n",
                 "# Attempt to restore from backup\n",
@@ -753,6 +756,12 @@
             "FromPort": "80",
             "ToPort": "80",
             "CidrIp": "0.0.0.0/0"
+          },
+          {
+            "IpProtocol": "tcp",
+            "FromPort": "8080",
+            "ToPort": "8080",
+            "CidrIp": "0.0.0.0/0"
           }
         ]
       }
@@ -804,6 +813,11 @@
           {
             "LoadBalancerPort": "80",
             "InstancePort": "8080",
+            "Protocol": "HTTP"
+          },
+          {
+            "LoadBalancerPort": "8080",
+            "InstancePort": "5000",
             "Protocol": "HTTP"
           }
         ],
@@ -862,10 +876,6 @@
     }
   },
   "Outputs": {
-    "InstanceURL" : {
-      "Value" : { "Fn::Join" : ["", [{ "Fn::GetAtt" : [ "DockerMachine", "PublicDnsName" ]}]]},
-      "Description" : "DNS publico da instancia"
-    },
     "DnsAddress": {
       "Description": "Jenkins URL",
       "Value": {
