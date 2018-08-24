@@ -21,18 +21,18 @@ Tendo criado e validado a comunicação entre o Jenkins e o repositório Git ess
 ```sh
 docker build --tag node-sample-app:$BUILD_NUMBER .
 docker stop node-sample-app && docker rm node-sample-app
-docker run -d --name node-sample-app -p 1337:1337 -e PORT=1337 node-sample-app:$BUILD_NUMBER
+docker run -d --name node-sample-app -p 5000:5000 -e PORT=5000 node-sample-app:$BUILD_NUMBER
 ```
 
 - A seguir e então selecione "Salvar" e volte a tela inicial;
 
-> As etapas de build do Docker criam uma imagem e adicionam uma TAG com o número de build do Jenkins para que você possa manter um histórico de versões se necessário, qualquer contêiner existente executando o app é interrompido e, em seguida, removido. um novo contêiner é então iniciado usando a imagem e executa o app Node.js com base nas versão entre pela integração com o GitHub, em nosso exemplo o App será acessível a partir da porta 9090;
+> As etapas de build do Docker criam uma imagem e adicionam uma TAG com o número de build do Jenkins para que você possa manter um histórico de versões se necessário, qualquer contêiner existente executando o app é interrompido e, em seguida, removido. um novo contêiner é então iniciado usando a imagem e executa o app Node.js com base nas versão entre pela integração com o GitHub, em nosso exemplo o **App será acessível a partir da porta 8080** (existe um balanceamento de carga redirecionando essa App para a porta 5000 onde foi exposta pelos comandos configurados na integração);
 
 ## Validando o Build da aplicação:
 
 1. Após alterar o processo de Build faça um commit no repositório iniciando um novo gatilho;
 
-2. Abra um navegador e insira o endereço ip da instancia no formato http://xpto.fiapdev.com:8080 # Embora a aplicação tenha sido exposta na Porta 1337 essa porta foi "mapeada" para a porta 8080 através do balanceador de carga configurado a frente da instância.
+2. Abra um navegador e insira o endereço ip da instancia no formato http://xpto.fiapdev.com:8080
 
 3. Seu app deverá ser exibido refletindo a versão mais recente baseada em seu Fork no GitHub:
 
