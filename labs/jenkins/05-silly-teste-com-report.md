@@ -41,18 +41,15 @@ Essas serão as permissões necessárias para que o Jenkins acesse e faça as pu
 
 3. No tipo de credencial escolha **Secret file** e adicione o token salvo anteriormente, mantenha o campo ID em branco e adicone uma descrição ao token:
 
-![alt tag]
-(https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.5.4-jenkins.png)
+![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.5.4-jenkins.png)
 
 4. Para que essas credenciais sejam aplciadas na página inicial do Jenkins selecione: **Manage Jenkins | Configure System**
 
-![alt tag]
-(https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.5.5-jenkins.png)
+![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.5.5-jenkins.png)
 
 5. Locali/ze a seção **github** e configure conforme abaixo:
 
-![alt tag]
-(https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.5.6-jenkins.png)
+![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.5.6-jenkins.png)
 
 6. Salve as alterações prepare-se para configurar o Job.
 
