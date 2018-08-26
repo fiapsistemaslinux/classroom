@@ -77,6 +77,8 @@ Crie um Job no Jenkins para executarmos nossa base de testes:
 
 - Na seção **"Build Triggers"** selecione **"GitHub hook trigger for GITScm polling"**.
 
+- Na seção **"Build Environment"** selecione **"Delete workspace before build starts"
+
 - Na seção **"Build"**, clique em **"Add Build Step"** e selecione **"Execute shell"**, em seguida, adicione a base de comandos descrita abaixo:
 
 ```sh
