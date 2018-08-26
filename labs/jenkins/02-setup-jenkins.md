@@ -25,7 +25,7 @@ Para instalações manuais será necessário acesso ao terminal de comandos para
 
 3. Por questões de segurança um opicional importante é criar um usuário dentro do Jenkins em vez de continuar usando a conta de administrador, para criar esta conta de usuário, preencha o formulário conforme as informações solicitadas e quando terminar, clique em **"Começar a usar o Jenkins"**:
 
-![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.2.6-jenkins.png)
+![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.2.7-jenkins.png)
 
 4. Por fim você será questionado sobre a URL de acesso ao Jenkins, não é necessário executar alterações neste item, apenas clique em "SAve & Finish";
 

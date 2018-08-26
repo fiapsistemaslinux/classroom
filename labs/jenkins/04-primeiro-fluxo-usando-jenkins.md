@@ -26,7 +26,7 @@ docker run -d --name node-sample-app -p 5000:5000 -e PORT=5000 node-sample-app:$
 
 - A seguir e então selecione "Salvar" e volte a tela inicial;
 
-> As etapas de build do Docker criam uma imagem e adicionam uma TAG com o número de build do Jenkins para que você possa manter um histórico de versões se necessário, qualquer contêiner existente executando o app é interrompido e, em seguida, removido. um novo contêiner é então iniciado usando a imagem e executa o app Node.js com base nas versão entre pela integração com o GitHub, em nosso exemplo o App será acessível a partir da porta 8080;
+> As etapas de build do Docker criam uma imagem e adicionam uma TAG com o número de build do Jenkins para que você possa manter um histórico de versões se necessário, qualquer contêiner existente executando o app é interrompido e, em seguida, removido. um novo contêiner é então iniciado usando a imagem e executa o app Node.js com base nas versão entre pela integração com o GitHub, em nosso exemplo o **App será acessível a partir da porta 8080** (existe um balanceamento de carga redirecionando essa App para a porta 5000 onde foi exposta pelos comandos configurados na integração);
 
 ## Validando o Build da aplicação:
 
