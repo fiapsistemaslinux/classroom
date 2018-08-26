@@ -13,6 +13,8 @@ O Jenkins é uma aplicação opensource baseado em java utilizado no processo de
 - 03- [Criando um serviço de integração usando o Github](https://github.com/fiapsecdevops/classroom/blob/master/labs/jenkins/03-github-int-service.md);
 - 04- [Build utilizando Node + Docker + Jenkins](https://github.com/fiapsecdevops/classroom/blob/master/labs/jenkins/04-primeiro-fluxo-usando-jenkins.md);
 
+- 05- [Melhorando a integração com o Git e Executando um Test Unitário](https://github.com/fiapsecdevops/classroom/blob/master/labs/jenkins/05-silly-teste-com-report.md);
+
 ---
 
 ## Referências:

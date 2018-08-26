@@ -26,13 +26,13 @@ docker run -d --name node-sample-app -p 5000:5000 -e PORT=5000 node-sample-app:$
 
 - A seguir e então selecione "Salvar" e volte a tela inicial;
 
-> As etapas de build do Docker criam uma imagem e adicionam uma TAG com o número de build do Jenkins para que você possa manter um histórico de versões se necessário, qualquer contêiner existente executando o app é interrompido e, em seguida, removido. um novo contêiner é então iniciado usando a imagem e executa o app Node.js com base nas versão entre pela integração com o GitHub, em nosso exemplo o App será acessível a partir da porta 9090;
+> As etapas de build do Docker criam uma imagem e adicionam uma TAG com o número de build do Jenkins para que você possa manter um histórico de versões se necessário, qualquer contêiner existente executando o app é interrompido e, em seguida, removido. um novo contêiner é então iniciado usando a imagem e executa o app Node.js com base nas versão entre pela integração com o GitHub, em nosso exemplo o App será acessível a partir da porta 8080;
 
 ## Validando o Build da aplicação:
 
 1. Após alterar o processo de Build faça um commit no repositório iniciando um novo gatilho;
 
-2. Abra um navegador e insira o endereço ip da instancia no formato http://xpto.fiapdev.com:5000
+2. Abra um navegador e insira o endereço ip da instancia no formato http://<URL_DO_JENKINS>:8080
 
 3. Seu app deverá ser exibido refletindo a versão mais recente baseada em seu Fork no GitHub:
 
