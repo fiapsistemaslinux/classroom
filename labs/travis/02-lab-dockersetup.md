@@ -75,7 +75,19 @@ after_success:
 ![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.1.6-travis.png)
 
 
-> Se tudo ocorrer conforme esperado após o tempo necessário para build e execução da integração do Travis de forma automática com o Dockerhub uma versão da aplicação com a TAG "latest" terá sido criado na sua conta no Dockerhub;
+3. Após o tempo necessário para build e execução da integração do Travis de forma automática com o Dockerhub uma versão da aplicação com a TAG "latest" terá sido criado na sua conta no Dockerhub:
+
+![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.1.7-travis.png)
+
+4. Inicie o Docker em um host para nosso teste final, em seguida execute:
+
+```sh
+docker run -p5000:5000 --rm -it <YOUR_DOCKER_USERNAME>/python-cicd-buzz:latest
+```
+
+Se tudo ocorrer conforme esperado a apicação será baixada do seu dockerhub e executada na porta 5000 do localhost;
+
+![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.1.8-travis.png)
 
 ---
 
