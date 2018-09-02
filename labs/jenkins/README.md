@@ -6,7 +6,7 @@
 
 O Jenkins é uma aplicação opensource baseado em java utilizado no processo de automação de tarefas, essas tarefas vão desde o processo de building de código até testes automatizados e deploys em ambientes de produção, sua instalação necessita apenas de ambiente com Java e pode ser executada na maioria dos sistemas operacionais atuais ou a partir de containers enquanto a arquitetura pode ser distribuida ou no formato standalone com apenas uma VM.
 
-## Exercícios utilizando Jenkins
+### Exercícios utilizando Jenkins
 
 - 01- [Preparação do Ambiente](https://github.com/fiapsecdevops/classroom/blob/master/labs/jenkins/01-setup-aws.md);
 - 02- [Inicialização do Jenkins](https://github.com/fiapsecdevops/classroom/blob/master/labs/jenkins/02-setup-jenkins.md);
