@@ -15,6 +15,7 @@
 4. [Integração Contínua](https://github.com/2TINsecdevops/classroom/blob/master/content/4continuousIntegration)
    - [Jenkins](https://github.com/2TINsecdevops/classroom/blob/master/labs/jenkins)
 5. [Delivery Continuo](https://github.com/2TINsecdevops/classroom/blob/master/content/5continuousDelivery)
+   - [Travis](https://github.com/2TINsecdevops/classroom/blob/master/labs/travis)
 6. [Deploy Continuo](https://github.com/2TINsecdevops/classroom/blob/master/content/6continuousDeployment)
 7. [Criptografia & Protocolos de Internet](https://github.com/2TINsecdevops/classroom/tree/master/content/7criptografiaProtocolos)
    - [Protocolo HTTP](https://github.com/2TINsecdevops/classroom/tree/master/content/7criptografiaProtocolos/7.1protocoloHTTP.md)
