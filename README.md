@@ -11,7 +11,6 @@
 3. [Microserviços](https://github.com/2TINsecdevops/classroom/blob/master/content/3microservicos)
    - [Cloud Native Apps](https://github.com/2TINsecdevops/classroom/blob/master/content/3microservicos/3.1cloudNativeAplications.md)
    - [Docker](https://github.com/2TINsecdevops/classroom/blob/master/content/3microservicos/3.2docker.md)
-   - [Docker Compose](https://github.com/2TINsecdevops/classroom/blob/master/content/3microservicos/3.3dockerCompose.md)
 4. [Integração Contínua](https://github.com/2TINsecdevops/classroom/blob/master/content/4continuousIntegration)
    - [Jenkins](https://github.com/2TINsecdevops/classroom/blob/master/labs/jenkins)
 5. [Delivery Continuo](https://github.com/2TINsecdevops/classroom/blob/master/content/5continuousDelivery)

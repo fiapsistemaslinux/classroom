@@ -1,15 +1,8 @@
-# Usando o Travis para Processos de Delivery Contínuo
+# Preparando a interação entre o Github e o Travis CI:
 
-![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.1.0-travis.png)
+Neste laboratório será configurada a integração entre uma conta no Github e a Ferramente de CI Travis.
 
-
-O [Travis](https://travis-ci.org) CI é uma solução de integração/delivery/deployment ofertado no modelo SAAS um software entregue como serviço online tal como Dropbox ou Heroku.
-
-Trata-se de uma ferramenta que funciona no formato freemium, isto é, com funções gratuitas e funções restritas a pacotes de assinatura. Sua funções gratuitas permitem integrações com repositórios publicos do GitHub, recurso que será usado neste laboratório para nossos exemplos de contrução de pipeline para delivery contínuo;
-
----
-
-## Configurando o repositório para o teste:
+**Configurando o repositório para o teste:**
 
 1. Antes de iniciar o processo de configuração será necessário uma conta no Github onde você deverá criar um Fork do projeto [python-cicd-buzz](https://github.com/fiapsecdevops/python-cicd-buzz);
 
@@ -44,7 +37,7 @@ $ python -m pytest -v tests/test_generator.py
 
 ---
 
-## Criando a integração com o CI:
+**Criando a integração com o CI:**
 
 1. Para começar este lab. crie uma conta gratuita no site [https://travis-ci.org](https://travis-ci.org) faça login utilizando sua autenticação com base em uma conta já existente no Github (a mesma utilizada no paso anterior);
 
@@ -63,7 +56,7 @@ script:
 
 ---
 
-## Testando o processo de integração:
+**Testando o processo de integração:**
 
 1. Com o conteúdo do arquivo **.travis.yml** criado temos a diretriz necessária para integração, ela instrui a solução de CI a executar um script utilizando a linguagem python (o mesmo script executado manualmente no laboratório anterior):
 
