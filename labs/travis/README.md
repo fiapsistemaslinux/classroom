@@ -7,7 +7,7 @@ O [Travis](https://travis-ci.org) CI é uma solução de integração/delivery/d
 
 Trata-se de uma ferramenta que funciona no formato freemium, isto é, com funções gratuitas e funções restritas a pacotes de assinatura. Sua funções gratuitas permitem integrações com repositórios publicos do GitHub, recurso que será usado neste laboratório para nossos exemplos de contrução de pipeline para delivery contínuo;
 
-## Exercícios utilizando Travis
+### Exercícios utilizando Travis
 
 - 01- [Preparando a interação entre o Github e o Travis CI](https://github.com/fiapsecdevops/classroom/blob/master/labs/travis/01-lab-integration.md);
 - 02- [Dockerizando o App para facilitar o Deploy](https://github.com/fiapsecdevops/classroom/blob/master/labs/travis/02-lab-dockersetup.md);
