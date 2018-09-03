@@ -87,6 +87,3 @@ Se tudo ocorrer conforme esperado a apicação será baixada do seu dockerhub e 
 ![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.1.8-travis.png)
 
 ---
-
-Próxima Etapa: - [Atividade: Questionando as práticas de Delivery Contínuo](https://pt.surveymonkey.com/r/8ZQH778)
-
