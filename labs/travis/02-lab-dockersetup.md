@@ -88,11 +88,5 @@ Se tudo ocorrer conforme esperado a apicação será baixada do seu dockerhub e 
 
 ---
 
-## Material de Referência e Recomendações:
-
-- Este laboratório foi baseado no artigo ["How to build a modern CI/CD pipeline"](https://medium.com/bettercode/how-to-build-a-modern-ci-cd-pipeline-5faa01891a5b) publicado no Medium por [Rob van der Leek](https://medium.com/@robvanderleek?source=post_header_lockup);
-
----
-
 Próxima Etapa: - [Atividade: Questionando as práticas de Delivery Contínuo](https://pt.surveymonkey.com/r/8ZQH778)
 
