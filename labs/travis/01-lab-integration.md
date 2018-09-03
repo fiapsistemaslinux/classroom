@@ -11,7 +11,7 @@ Neste laboratório será configurada a integração entre uma conta no Github e 
 3. Para validar o funcionamento do módulo e da aplicação faça o pull local do reósitório criado e execute locamente em um ambiente com python 2.X.X instalado:
 
 ```sh
-$ python generator.py
+$ python buzz/generator.py
 End-To-End Devops Enormously Boosts Continuous Testing
 ```
 
