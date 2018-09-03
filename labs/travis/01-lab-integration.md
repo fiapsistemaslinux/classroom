@@ -6,7 +6,7 @@ Neste laboratório será configurada a integração entre uma conta no Github e 
 
 1. Antes de iniciar o processo de configuração será necessário uma conta no Github onde você deverá criar um Fork do projeto [python-cicd-buzz](https://github.com/fiapsecdevops/python-cicd-buzz);
 
-2. Neste projeto temos uma aplicação simpels baseada em Python com um teste unitário utilizando o módulo python [pytest](https://docs.pytest.org/en/latest/);
+2. Neste projeto temos uma aplicação simples baseada em Python com um teste unitário utilizando o módulo python [pytest](https://docs.pytest.org/en/latest/);
 
 3. Para validar o funcionamento do módulo e da aplicação faça o pull local do reósitório criado e execute locamente em um ambiente com python 2.X.X instalado:
 
