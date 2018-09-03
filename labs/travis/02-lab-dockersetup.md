@@ -5,13 +5,7 @@ Neste laboratório criaremos o arquivo Dockerfile necessário para criar um depl
 
 **Criando o Dockerfile:**
 
-1. No diretório raiz do projeto criaremos o arquivo Dockerfile para buildar a aplicação em um container:
-
-``sh
-vim Dockerfile
-```
-
-Adicione o seguinte conteúdo:
+1. No diretório raiz do projeto criaremos o arquivo Dockerfile para buildar a aplicação em um container, na pasta raiz do seu Fork do projeto no github crie um arquivo com o nome **Dockerfile** e o conteúdo abaixo:
 
 ```sh
 FROM alpine:3.5
@@ -23,10 +17,10 @@ COPY buzz /src/buzz
 CMD python /src/app.py
 ```
 
-> As instruções acima instruem como o docker deverá "buildar" a aplicação utilizando uma imagem alpine e em seguida instalar o Python e o pip e finalmente instalar nosso app. A última linha informa ao docker para iniciar o app sempre que o contêiner for iniciado.
+> O conteúdo acima instrui como o docker deverá "buildar" a aplicação utilizando uma imagem alpine e em seguida instalar o Python e o pip e finalmente instalar nosso app. A última linha informa ao docker para iniciar o app sempre que o contêiner for iniciado.
 
 
-2. A maioria das ferramentas de CI possuem funções que permitem a integração nativa com o DockerHub, para hailitar essa integração usando o Travis crie um diretório chamado .travis e dentro dele um arquivo chamado **deploy_dockerhub.sh** com o conteúdo abaixo:
+2. A maioria das ferramentas de CI possuem funções que permitem a integração nativa com o DockerHub, para hailitar essa integração usando o Travis crie um diretório chamado .travis na raiz do projeto no Github e dentro dele um arquivo chamado **deploy_dockerhub.sh** com o conteúdo abaixo:
 
 ```sh
 #!/bin/sh
@@ -42,11 +36,14 @@ docker push $TRAVIS_REPO_SLUG
 
 > O script acima será ativado pelo Travis CI no final de cada construção de pipeline e criará uma nova imagem de Docker para deploy;
 
-3. O script requer 3 variáveis ​​de ambiente que você deverá definir acessando a opção "settings" do seu repositório python-cicd-buzz no Travis:
+3. O script requer 2 variáveis ​​de ambiente que você deverá definir acessando a opção "settings" do seu repositório python-cicd-buzz no Travis:
 
 ![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.1.4-travis.png)
 
-4. Localize o campo "Environment Variables" e adicione as três variáveis definias no script:
+4. Localize o campo "Environment Variables" e adicione as três variáveis definias no script: 
+
+DOCKER_USER > Prencha com o seu usuário no Dockerhub;
+DOCKER_PASS > Prencha com a sua senha de acesso ao DOckerhub;
 
 ![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.1.5-travis.png)
 
