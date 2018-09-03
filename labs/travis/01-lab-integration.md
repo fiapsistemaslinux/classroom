@@ -74,6 +74,4 @@ script:
 
 - Este laboratório foi baseado no artigo ["How to build a modern CI/CD pipeline"](https://medium.com/bettercode/how-to-build-a-modern-ci-cd-pipeline-5faa01891a5b) publicado no Medium por [Rob van der Leek](https://medium.com/@robvanderleek?source=post_header_lockup);
 
----
-
-**Free Software, Hell Yeah!**
+Próxima Etapa: [Dockerizando o App para facilitar o Deploy](https://github.com/fiapsecdevops/classroom/blob/master/labs/travis/02-lab-dockersetup.md);
