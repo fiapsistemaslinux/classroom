@@ -6,7 +6,7 @@ Neste laboratório será configurada a integração entre uma conta no Github e 
 
 1. Antes de iniciar o processo de configuração será necessário uma conta no Github onde você deverá criar um Fork do projeto [python-cicd-buzz](https://github.com/fiapsecdevops/python-cicd-buzz);
 
-2. Neste projeto temos uma aplicação simples baseada em Python com um teste unitário utilizando o módulo python [pytest](https://docs.pytest.org/en/latest/);
+2. Neste projeto temos uma aplicação simples baseada em Python com um teste unitário utilizando o módulo [pytest](https://docs.pytest.org/en/latest/);
 
 3. Para validar o funcionamento do módulo e da aplicação faça o pull local do reósitório criado e execute locamente em um ambiente com python 2.X.X instalado:
 
@@ -41,7 +41,7 @@ $ python -m pytest -v tests/test_generator.py
 
 1. Para começar este lab. crie uma conta gratuita no site [https://travis-ci.org](https://travis-ci.org) faça login utilizando sua autenticação com base em uma conta já existente no Github (a mesma utilizada no paso anterior);
 
-2. Em seguida após autneticar no Travis no menu no canto superior esquerdo da tela exibida escolha a opção **Profile**, você verá uma relação com otdos os reósitórios públicos disponíveis na conta do github, ative a integração para o repositório **python-cicd-buzz**:
+2. Após autenticar no menu no canto superior esquerdo da tela exibida no Travis escolha a opção **Profile**, você verá uma relação com otdos os reósitórios públicos disponíveis na conta do github, ative a integração para o repositório **python-cicd-buzz**:
 
 ![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.1.1-travis.png)
 
@@ -58,13 +58,13 @@ script:
 
 **Testando o processo de integração:**
 
-1. Com o conteúdo do arquivo **.travis.yml** criado temos a diretriz necessária para integração, ela instrui a solução de CI a executar um script utilizando a linguagem python (o mesmo script executado manualmente no laboratório anterior):
+1. Com o conteúdo do arquivo **.travis.yml** criado temos a diretriz necessária para integração, ela instrui a solução de CI a executar um script utilizando a linguagem python (o mesmo script executado manualmente no passo anterior), voltando a tela inicial do Travis você verá op repositório integrado e clicando sobre ele o processo de build gerado pelo commit:
 
 ![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.1.2-travis.png)
 
 > Uma questão extremamente relevante sobre o uso de uma solução de CI como SAAS ao invés da instalação manual como aquela executada no Jenkins é a compatibilidade, soluções online em geral possuem um range espećifico de linguagens com as quais "conversam" o que pode gerar uma limitação a depender do ecossistema do time de desenvolvimento.
 
-2. O log de output deverá exibir os resultados dos testes unitários com códido "0" isto é, execução finalizada com sucesso:
+2. Verifique o log de output deverá com os resultados dos testes unitários com códido "0" isto é, execução finalizada com sucesso:
 
 ![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.1.3-travis.png)
 
