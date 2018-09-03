@@ -11,6 +11,7 @@ Trata-se de uma ferramenta que funciona no formato freemium, isto é, com funç�
 
 - 01- [Preparando a interação entre o Github e o Travis CI](https://github.com/fiapsecdevops/classroom/blob/master/labs/travis/01-lab-integration.md);
 - 02- [Dockerizando o App para facilitar o Deploy](https://github.com/fiapsecdevops/classroom/blob/master/labs/travis/02-lab-dockersetup.md);
+- 03- [Atividade: Questionando as práticas de Delivery Contínuo](https://pt.surveymonkey.com/r/8ZQH778)
 
 ---
 
