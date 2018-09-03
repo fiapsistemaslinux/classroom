@@ -25,8 +25,11 @@ $ virtualenv venv
 5. Em seguida acesse o ambiente criado e instale as dependências necessárias:
 
 ```sh
-$ source venv/bin/activate
+$ source venv/Scripts/activate
 $ pip install -r requirements.txt
+
+# Caso esteja utilizando um sistema Unix Like como o Linux ao invpes utilize:
+$ source venv/bin/activate
 ```
 
 6. Execute o test chamando o arquivo **test_generator.py**
@@ -46,7 +49,7 @@ $ python -m pytest -v tests/test_generator.py
 ![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.1.1-travis.png)
 
 
-3. Após ativar a integração adicione um arquivo **.travis.yml** no diretório raiz do projeto **python-cicd-buzz** com base no conteúdo abaixo:
+3. Após ativar a integração adicione um arquivo **.travis.yml** no diretório raiz do projeto **python-cicd-buzz** com base no conteúdo abaixo, você pode utilizar o vcode ou qualquer IDE de sua preferência nesta tarefa;
 
 ```sh
 language: python
