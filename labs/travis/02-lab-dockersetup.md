@@ -94,4 +94,5 @@ Se tudo ocorrer conforme esperado a apicação será baixada do seu dockerhub e 
 
 ---
 
-**Free Software, Hell Yeah!**
+Próxima Etapa: - [Atividade: Questionando as práticas de Delivery Contínuo](https://pt.surveymonkey.com/r/8ZQH778)
+
