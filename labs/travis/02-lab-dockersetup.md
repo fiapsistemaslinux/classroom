@@ -25,11 +25,8 @@ CMD python /src/app.py
 ```sh
 #!/bin/sh
 docker login -u $DOCKER_USER -p $DOCKER_PASS
-if [ "$TRAVIS_BRANCH" = "master" ]; then
-    TAG="latest"
-else
-    TAG="$TRAVIS_BRANCH"
-fi
+TAG="$TRAVIS_BUILD_NUMBER"
+
 docker build -f Dockerfile -t $TRAVIS_REPO_SLUG:$TAG .
 docker push $TRAVIS_REPO_SLUG
 ```
@@ -43,7 +40,7 @@ docker push $TRAVIS_REPO_SLUG
 4. Localize o campo "Environment Variables" e adicione as três variáveis definias no script: 
 
 DOCKER_USER > Prencha com o seu usuário no Dockerhub;
-DOCKER_PASS > Prencha com a sua senha de acesso ao DOckerhub;
+DOCKER_PASS > Prencha com a sua senha de acesso ao Dockerhub;
 
 ![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.1.5-travis.png)
 
@@ -79,7 +76,7 @@ after_success:
 4. Inicie o Docker em um host para nosso teste final, em seguida execute:
 
 ```sh
-docker run -p5000:5000 --rm -it <YOUR_DOCKER_USERNAME>/python-cicd-buzz:latest
+docker run -p80:80 --rm -it <YOUR_DOCKER_USERNAME>/python-cicd-buzz:latest
 ```
 
 Se tudo ocorrer conforme esperado a apicação será baixada do seu dockerhub e executada na porta 5000 do localhost;
