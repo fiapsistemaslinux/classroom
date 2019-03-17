@@ -1,0 +1,15 @@
+/* custom css and js files included at the top level of your presentation will
+ * will be included in your presentation */
+
+h1 {
+  color:	rgb(255, 17, 89);
+  font-family: Arial, Helvetica, sans-serif
+}
+h2 {
+  color:	rgb(32, 32, 32);
+  font-family: Arial, Helvetica, sans-serif
+}
+.content {
+  color: rgb(48, 48, 48);
+  font-family: 'Times New Roman', Times, serif
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Security DevOps",
+  "description": "Sistemas para Internet",
+  "author": "profhelder.pereira@fiap.com.br",
+  "protected": ["presenter"],
+  "user": "foo",
+  "password": "bar",
+  "templates" : {
+      "special" : "simple.tpl"
+  },
+  "pause_msg": "Paused !!!",
+  "sections": [
+    {"section":"00_Intro"},
+    {"section":"01_Conceitos"},
+    {"section":"02_Cases"},
+    {"section":"03_Praticas"},
+    {"section":"04_Containers"},
+    {"section":"05_CI-CD"},
+    {"section":"99_End"}
+  ]
+}
