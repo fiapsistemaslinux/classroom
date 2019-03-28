@@ -75,17 +75,3 @@ Segundo Mark Andreessen no Paper [Cloud-Native Application Architectures](https:
 *Mover para a cloud é uma evolução natural das demandas atuais de implementação de software e aplicações/arquiteturas do tipo cloud-native são o centro de como essas empresas essas empresas obtiveram seu caráter disruptivo.*
 
 .callout.info `Com base na lógica do que se propõe a ser uma Arquiteutra Moderna alguns novos Patters para desenvolvimento de software começaram a surgir, ou seja a adoção dessas arquiteturas em meio a cultura DevOps altera drasticamente a maneira como os desenvolvedores devem codificar aplicações;`
-
-!SLIDE incremental  transition=fade
-
-# Boas Práticas de Desenvolivmento de Software
-
-**Twelve-Factor Applications**
-
-A questão e motivação do desenvolvimento do tipo Cloud-native envolve várias características-chave, uma delas é a coleção de patterns descrita como **Twelve-Factor Applications:**
-
-- O *Twelve-Factor* é uma coleção de padrões para arquiteturas de aplicações, originalmente desenvolvidas por engenheiros da Heroku.
-
-- Essses padrões descrevem um arquétipo de aplicações com base no que geralmente é pré-requisito para que um software opere conforme esperado utilizando o máximo de recursos e vantagens que o modelo baseado em cloud computing tenha a disposição.
-
-- A lista com os dose componentes pode ser obtida em protuguês neste endereço: [https://12factor.net/pt_br/](https://12factor.net/pt_br/)

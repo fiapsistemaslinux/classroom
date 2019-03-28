@@ -1,6 +1,5 @@
 !SLIDE inverse center transition=fade
 
-<h3 style="color:white; font-family: Arial, Helvetica, sans-serif">MBA</h3>
 ![mba](../_images/fiap-logo.png)
 
 <h1 style="color:white;">SECURITY DEVOPS</h1>
