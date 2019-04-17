@@ -55,6 +55,7 @@ A sequencia anterior criou a integração necessária para que o Docker Hub veri
 4. O Dockerfile usado no processo de Build é obtido a partir do repositório inicial:
 ![3.3-lab-docker](images/3.3-lab-docker.png)
 5. Ao final do processo você verá uma imagem gerada automaticamente com base no código fonte do Github e nas instruções de build:
+
 ![3.4-lab-docker](images/3.4-lab-docker.png)
 
 6. É possível executar um teste com o pull desta imagem usando um sistema operacional com docker instalado:
@@ -63,4 +64,5 @@ A sequencia anterior criou a integração necessária para que o Docker Hub veri
 docker pull <seu-repositorio-no-docker>/nodeapp-micro:latest
 ```
 
+> Neste formato o Docker Hub fica responsável por "vigiar" o reositório criado no Github,você pode testar esta integração fazendo qualquer alteração no código no Github, após alguns minutos o Docker deverá iniciar o build de uma nova imagem;
 
