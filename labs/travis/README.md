@@ -9,8 +9,10 @@ Trata-se de uma ferramenta que funciona no formato freemium, isto é, com funç�
 
 ### Exercícios utilizando Travis
 
-- 01- [Preparando a interação entre o Github e o Travis CI](https://github.com/fiapsecdevops/classroom/blob/master/labs/travis/01-lab-integration.md);
+- 01a- [Preparando a interação entre o Github e o Travis CI - Python](https://github.com/fiapsecdevops/classroom/blob/master/labs/travis/01a-lab-integration.md);
+- 01b- [Preparando a interação entre o Github e o Travis CI - Node](https://github.com/fiapsecdevops/classroom/blob/master/labs/travis/01b-lab-integration.md);
 - 02- [Dockerizando o App para facilitar o Deploy](https://github.com/fiapsecdevops/classroom/blob/master/labs/travis/02-lab-dockersetup.md);
+
 
 ---
 
