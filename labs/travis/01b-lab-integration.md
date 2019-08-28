@@ -1,6 +1,6 @@
 # Preparando a interação entre o Github e o Travis (Node):
 
-![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.1.0-travis-b.png)
+![alt tag](https://github.com/fiapsecdevops/classroom/raw/master/labs/images/1.1.0-travis-b.jpg)
 
 
 Neste laboratório será configurada a integração entre uma conta no Github e a Ferramenta Travis utilizando uma base de código node e um teste unitário como um gatilho a ser executado após alterações no código;
